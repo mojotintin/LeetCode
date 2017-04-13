@@ -5,11 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FindLargestValueInEachTreeRow_515 sol = new FindLargestValueInEachTreeRow_515();
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        System.out.println(sol.largestValues(root));
+        RotateImage_48 sol = new RotateImage_48();
+        int[][] matrix = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        sol.rotate(matrix);
     }
 }

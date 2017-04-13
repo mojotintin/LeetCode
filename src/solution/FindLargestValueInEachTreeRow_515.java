@@ -13,9 +13,9 @@ import java.util.Queue;
 public class FindLargestValueInEachTreeRow_515 {
 
     public List<Integer> largestValues(TreeNode root) {
+        if (root == null) return new LinkedList<>();
         List<Integer> list = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();
-        if (root == null) return list;
         list.add(root.val);
         queue.add(root);
         int max = Integer.MIN_VALUE;
@@ -24,7 +24,6 @@ public class FindLargestValueInEachTreeRow_515 {
             TreeNode node = queue.remove();
             if (node.left != null) {
                 q.add(node.left);
-
                 max = Math.max(node.left.val, max);
             }
             if (node.right != null) {
