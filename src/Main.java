@@ -1,13 +1,10 @@
-import solution.KeyboardRow_500;
-import solution.MinStack_155;
-import solution.ReverseWordsInAStringIII_557;
-import solution.StupidThief_JD;
+import solution.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        KeyboardRow_500 sol = new KeyboardRow_500();
-        System.out.println(sol.findWords(new String[]{"Hello","Alaska","Dad","Peace"}));
+        NthDigit_400 sol = new NthDigit_400();
+        System.out.print(sol.findNthDigit(2147483647));
     }
 }
