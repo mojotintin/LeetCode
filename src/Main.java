@@ -1,10 +1,15 @@
+import entities.TreeNode;
 import solution.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        NthDigit_400 sol = new NthDigit_400();
-        System.out.print(sol.findNthDigit(2147483647));
+        FindLargestValueInEachTreeRow_515 sol = new FindLargestValueInEachTreeRow_515();
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        System.out.println(sol.largestValues(root));
     }
 }
