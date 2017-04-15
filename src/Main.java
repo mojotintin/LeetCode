@@ -5,8 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        RotateImage_48 sol = new RotateImage_48();
-        int[][] matrix = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        sol.rotate(matrix);
+        LengthOfLastWord_58 sol = new LengthOfLastWord_58();
+        System.out.println(sol.lengthOfLastWord("hhllo"));
     }
 }
