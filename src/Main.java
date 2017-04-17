@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LengthOfLastWord_58 sol = new LengthOfLastWord_58();
-        System.out.println(sol.lengthOfLastWord("hhllo"));
+        StudentAttendanceRecordI_551 sol = new StudentAttendanceRecordI_551();
+        System.out.println(sol.checkRecord("PPALLL"));
     }
 }
