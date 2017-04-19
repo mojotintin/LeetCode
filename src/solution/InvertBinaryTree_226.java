@@ -5,6 +5,7 @@ import entities.TreeNode;
 /**
  * Created by calabash on 2017/3/28.
  * LeetCode 226th Invert Binary Tree
+ * √
  */
 public class InvertBinaryTree_226 {
 
