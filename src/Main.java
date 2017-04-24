@@ -5,7 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ReverseWordsInAString_151 sol = new ReverseWordsInAString_151();
-        System.out.println(sol.reverseWords("the sky is blue"));
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+
     }
 }
