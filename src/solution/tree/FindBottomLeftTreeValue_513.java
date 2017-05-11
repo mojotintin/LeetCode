@@ -1,4 +1,4 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
@@ -8,7 +8,7 @@ import java.util.Queue;
 /**
  * Created by calabash on 2017/4/6.
  * The LeetCode 523th
- * √
+ * Tags : Tree, Depth-first Search, Breadth-first Search
  */
 public class FindBottomLeftTreeValue_513 {
 

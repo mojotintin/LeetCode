@@ -1,10 +1,11 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
 /**
  * Created by calabash on 2017/3/27.
  * LeetCode 100th Same Tree.
+ * Tags : Tree, Depth-first Search
  */
 public class SameTree_100 {
 

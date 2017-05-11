@@ -1,4 +1,4 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
@@ -9,7 +9,7 @@ import java.util.Queue;
 /**
  * Created by Calabash on 2017/4/13.
  * The LeetCode 515th
- * √
+ * Tags : Tree, Depth-first Search, Breadth-first Search
  */
 public class FindLargestValueInEachTreeRow_515 {
 

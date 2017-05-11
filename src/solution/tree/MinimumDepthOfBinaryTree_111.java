@@ -1,10 +1,11 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
 /**
  * Created by calabash on 2017/4/6.
- * The LeetCode 111th √
+ * The LeetCode 111th
+ * Tags : Tree, Depth-first Search, Breadth-first Search
  */
 public class MinimumDepthOfBinaryTree_111 {
 

@@ -1,10 +1,11 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/5/7.
- *
+ * The LeetCode 572th
+ * Tags : Tree
  */
 public class SubtreeOfAnotherTree_572 {
 

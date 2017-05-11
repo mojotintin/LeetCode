@@ -1,11 +1,11 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
 /**
  * Created by calabash on 2017/3/28.
  * LeetCode 226th Invert Binary Tree
- * √
+ * Tags : Tree
  */
 public class InvertBinaryTree_226 {
 

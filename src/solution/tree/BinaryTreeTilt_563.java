@@ -1,11 +1,11 @@
-package solution;
+package solution.tree;
 
 import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/4/24.
  * The LeetCode 563th
- *  √
+ *  Tags : Tree
  */
 public class BinaryTreeTilt_563 {
 
