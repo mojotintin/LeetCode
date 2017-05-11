@@ -1,4 +1,4 @@
-package solution;
+package solution.linkedlist;
 
 import entities.ListNode;
 
@@ -9,7 +9,7 @@ import entities.ListNode;
 public class RemoveLinkedListElements_203 {
 
      public ListNode removeElements(ListNode head, int val) {
-        if (head == null) return  head;
+        if (head == null) return  null;
         ListNode newHead = head;
         while(head.next != null){
             if(head.next.val == val){
