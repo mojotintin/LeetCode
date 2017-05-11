@@ -5,7 +5,7 @@ import entities.ListNode;
 /**
  * Created by Calabash on 2017/4/24.
  * The LeetCode 83th
- * √
+ * Tags : Linked List
  */
 public class RemoveDuplicatesFromSortedList_83 {
 

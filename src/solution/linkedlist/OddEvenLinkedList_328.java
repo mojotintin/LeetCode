@@ -4,7 +4,8 @@ import entities.ListNode;
 
 /**
  * Created by calabash on 2017/3/29.
- * Leetcode 328th Odd Even aLinked List
+ * The LeetCode 328th
+ * Tags : Linked List, Two Points
  */
 public class OddEvenLinkedList_328 {
 
