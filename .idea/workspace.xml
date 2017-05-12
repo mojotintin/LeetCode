@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd274e4e-9009-4c29-96d7-4f96a4f249ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solutions/tree/BinaryTreePreorderTraversal_144.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/solutions/JumpGame_55.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ArrayPartitionI_561.java" afterPath="$PROJECT_DIR$/src/solutions/array/ArrayPartitionI_561.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/BattleshipsInABoard_419.java" afterPath="$PROJECT_DIR$/src/solutions/BattleshipsInABoard_419.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ComplexNumberMultiplication_537.java" afterPath="$PROJECT_DIR$/src/solutions/ComplexNumberMultiplication_537.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/CountAndSay_38.java" afterPath="$PROJECT_DIR$/src/solutions/CountAndSay_38.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/FirstUniqueCharacterInAString_387.java" afterPath="$PROJECT_DIR$/src/solutions/FirstUniqueCharacterInAString_387.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/GroupAnagrams_49.java" afterPath="$PROJECT_DIR$/src/solutions/GroupAnagrams_49.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/KeyboardRow_500.java" afterPath="$PROJECT_DIR$/src/solutions/KeyboardRow_500.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/LengthOfLastWord_58.java" afterPath="$PROJECT_DIR$/src/solutions/LengthOfLastWord_58.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/LetterCombinationsOfAPhoneNumber_17.java" afterPath="$PROJECT_DIR$/src/solutions/LetterCombinationsOfAPhoneNumber_17.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/LongestCommonPrefix_14.java" afterPath="$PROJECT_DIR$/src/solutions/LongestCommonPrefix_14.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/LongestSubstringWithoutRepeatingCharacters_3.java" afterPath="$PROJECT_DIR$/src/solutions/LongestSubstringWithoutRepeatingCharacters_3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/MinStack_155.java" afterPath="$PROJECT_DIR$/src/solutions/MinStack_155.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/NthDigit_400.java" afterPath="$PROJECT_DIR$/src/solutions/NthDigit_400.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/NumberComplement_476.java" afterPath="$PROJECT_DIR$/src/solutions/NumberComplement_476.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/Pattern132_456.java" afterPath="$PROJECT_DIR$/src/solutions/Pattern132_456.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/PermutationInString_567.java" afterPath="$PROJECT_DIR$/src/solutions/PermutationInString_567.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/Permutations_46.java" afterPath="$PROJECT_DIR$/src/solutions/Permutations_46.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/RansomNote_283.java" afterPath="$PROJECT_DIR$/src/solutions/string/RansomNote_283.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/RepeatedSubstringPattern_459.java" afterPath="$PROJECT_DIR$/src/solutions/RepeatedSubstringPattern_459.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ReshapeTheMatrix_566.java" afterPath="$PROJECT_DIR$/src/solutions/array/ReshapeTheMatrix_566.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ReverseWordsInAStringIII_557.java" afterPath="$PROJECT_DIR$/src/solutions/string/ReverseWordsInAStringIII_557.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ReverseWordsInAString_151.java" afterPath="$PROJECT_DIR$/src/solutions/string/ReverseWordsInAString_151.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/RotateImage_48.java" afterPath="$PROJECT_DIR$/src/solutions/RotateImage_48.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/SearchInsertPosition_35.java" afterPath="$PROJECT_DIR$/src/solutions/SearchInsertPosition_35.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/StudentAttendanceRecordI_551.java" afterPath="$PROJECT_DIR$/src/solutions/StudentAttendanceRecordI_551.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/StupidThief_JD.java" afterPath="$PROJECT_DIR$/src/solutions/StupidThief_JD.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/TrappingRainWater_42.java" afterPath="$PROJECT_DIR$/src/solutions/TrappingRainWater_42.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/TwoSumII_InputArrayISorted_167.java" afterPath="$PROJECT_DIR$/src/solutions/TwoSumII_InputArrayISorted_167.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/ValidAnagram_242.java" afterPath="$PROJECT_DIR$/src/solutions/ValidAnagram_242.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/backtracking/GrayCode_89.java" afterPath="$PROJECT_DIR$/src/solutions/backtracking/GrayCode_89.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/AddTwoNumbers_2.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/AddTwoNumbers_2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/LinkedListCycle_141.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/LinkedListCycle_141.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/OddEvenLinkedList_328.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/OddEvenLinkedList_328.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/PalindromeLinkedList_234.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/PalindromeLinkedList_234.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/PartitionList_86.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/PartitionList_86.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/RemoveDuplicatesFromSortedList_83.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/RemoveDuplicatesFromSortedList_83.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/RemoveLinkedListElements_203.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/RemoveLinkedListElements_203.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/ReverseLinkedList_206.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/ReverseLinkedList_206.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/linkedlist/SwapNodesInPairs_24.java" afterPath="$PROJECT_DIR$/src/solutions/linkedlist/SwapNodesInPairs_24.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/BinaryTreeInorderTraversal_94.java" afterPath="$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/BinaryTreeTilt_563.java" afterPath="$PROJECT_DIR$/src/solutions/tree/BinaryTreeTilt_563.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/FindBottomLeftTreeValue_513.java" afterPath="$PROJECT_DIR$/src/solutions/tree/FindBottomLeftTreeValue_513.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/FindLargestValueInEachTreeRow_515.java" afterPath="$PROJECT_DIR$/src/solutions/tree/FindLargestValueInEachTreeRow_515.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/InvertBinaryTree_226.java" afterPath="$PROJECT_DIR$/src/solutions/tree/InvertBinaryTree_226.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/MaximumDepthOfBinaryTree_104.java" afterPath="$PROJECT_DIR$/src/solutions/tree/MaximumDepthOfBinaryTree_104.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/MinimumDepthOfBinaryTree_111.java" afterPath="$PROJECT_DIR$/src/solutions/tree/MinimumDepthOfBinaryTree_111.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/SameTree_100.java" afterPath="$PROJECT_DIR$/src/solutions/tree/SameTree_100.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/solution/tree/SubtreeOfAnotherTree_572.java" afterPath="$PROJECT_DIR$/src/solutions/tree/SubtreeOfAnotherTree_572.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java" afterPath="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,24 +15,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode.coverage" NAME="LeetCode Coverage Results" MODIFIED="1494572042553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumberComplement_476.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solutions/NumberComplement_476.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTreeInorderTraversal_94.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,32 +33,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LengthOfLastWord_58.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solutions/LengthOfLastWord_58.java">
+      <file leaf-file-name="BinaryTreeInorderTraversal_94.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayPartitionI_561.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solutions/array/ArrayPartitionI_561.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReshapeTheMatrix_566.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solutions/array/ReshapeTheMatrix_566.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="349">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,11 +90,41 @@
       <file leaf-file-name="BinaryTreePostorderTraversal_145.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpGame_55.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/solutions/JumpGame_55.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumDepthOfBinaryTree_111.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solutions/tree/MinimumDepthOfBinaryTree_111.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pattern132_456.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/solutions/Pattern132_456.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/solution/tree/MinimumDepthOfBinaryTree_111.java" />
         <option value="$PROJECT_DIR$/src/solution/tree/SameTree_100.java" />
         <option value="$PROJECT_DIR$/src/solution/tree/SubtreeOfAnotherTree_572.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/solutions/NumberComplement_476.java" />
         <option value="$PROJECT_DIR$/src/solutions/array/ArrayPartitionI_561.java" />
         <option value="$PROJECT_DIR$/src/solutions/array/ReshapeTheMatrix_566.java" />
@@ -224,8 +181,10 @@
         <option value="$PROJECT_DIR$/src/solutions/string/RansomNote_283.java" />
         <option value="$PROJECT_DIR$/src/solutions/tree/BinaryTreePreorderTraversal_144.java" />
         <option value="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_144.java" />
-        <option value="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java" />
         <option value="$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java" />
+        <option value="$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/solutions/JumpGame_55.java" />
       </list>
     </option>
   </component>
@@ -889,40 +848,42 @@
       <workItem from="1494240819083" duration="36000" />
       <workItem from="1494294506301" duration="2430000" />
       <workItem from="1494481091633" duration="6791000" />
-      <workItem from="1494501436427" duration="8265000" />
+      <workItem from="1494501436427" duration="12016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20053000" />
+    <option name="totallyTimeSpent" value="23804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -937,7 +898,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -945,14 +908,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/solutions/linkedlist/PalindromeLinkedList_234.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solutions/linkedlist/OddEvenLinkedList_328.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1107,14 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solutions/Pattern132_456.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solutions/PermutationInString_567.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1229,14 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solutions/tree/MinimumDepthOfBinaryTree_111.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solutions/tree/SameTree_100.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1253,23 +1192,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494567600242" expanded="true" signature="79858:79875" ph="..." />
-            <marker date="1494567600242" expanded="true" signature="79858:79893" ph="..." />
-            <marker date="1494567600242" expanded="true" signature="79858:79906" ph="..." />
-            <marker date="1494567600242" expanded="true" signature="79858:79921" ph="..." />
+            <marker date="1494576570803" expanded="true" signature="72551:72568" ph="..." />
+            <marker date="1494576570803" expanded="true" signature="72551:72586" ph="..." />
+            <marker date="1494576570803" expanded="true" signature="72551:72599" ph="..." />
+            <marker date="1494576570803" expanded="true" signature="72551:72614" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1348,23 +1279,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java">
+    <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="349">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreeInorderTraversal_94.java">
+    <entry file="file://$PROJECT_DIR$/src/solutions/tree/MinimumDepthOfBinaryTree_111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solutions/Pattern132_456.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solutions/tree/BinaryTreePostorderTraversal_145.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solutions/JumpGame_55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
