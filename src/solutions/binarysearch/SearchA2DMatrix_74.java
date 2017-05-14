@@ -1,4 +1,4 @@
-package solutions.array;
+package solutions.binarysearch;
 
 /**
  * Created by Calabash on 2017/5/13.
