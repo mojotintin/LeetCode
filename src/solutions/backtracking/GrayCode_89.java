@@ -6,11 +6,15 @@ import java.util.List;
 /**
  * Created by Calabash on 2017/5/11.
  * The LeetCode 89th
+ * Description : https://leetcode.com/problems/gray-code/#/description
  * Tags : Backtracking
  */
 public class GrayCode_89 {
 
-    // Runtime : 3ms
+    /**
+     * Status : Accepted
+     * Runtime : 3ms
+     */
     public List<Integer> grayCode_1(int n) {
         List<Integer> codes = new ArrayList<>();
         codes.add(0);
@@ -22,7 +26,10 @@ public class GrayCode_89 {
         return codes;
     }
 
-    // Runtime : 2ms
+    /**
+     * Status : Accepted
+     * Runtime : 2ms
+     */
     public List<Integer> grayCode_2(int n) {
 
         List<Integer> codes = new ArrayList<>();
@@ -42,7 +49,10 @@ public class GrayCode_89 {
         return codes;
     }
 
-    // Runtime : 1ms
+    /**
+     * Status : Accepted
+     * Runtime : 1ms
+     */
     public List<Integer> grayCode_3(int n) {
         List<Integer> codes = new ArrayList<>();
         codes.add(0);
