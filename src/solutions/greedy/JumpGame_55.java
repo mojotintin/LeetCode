@@ -1,12 +1,17 @@
-package solutions.array;
+package solutions.greedy;
 
 /**
  * Created by Calabash on 2017/5/12.
  * The LeetCode 55th
+ * Description : https://leetcode.com/problems/jump-game/#/description
  * Tags : Array, Greedy
  */
 public class JumpGame_55 {
 
+	/**
+	 * Status : Accepted
+     * Runtime : 8ms
+	 */
     public boolean canJump(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
         	if (nums[i] == 0) {
