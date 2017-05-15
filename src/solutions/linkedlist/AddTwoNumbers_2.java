@@ -5,7 +5,7 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/2.
- * The LeetCode 2th
+ * LeetCode 2th
  * Tags : Linked List, Math
  */
 public class AddTwoNumbers_2 {

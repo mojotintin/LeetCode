@@ -2,7 +2,7 @@ package solutions.greedy;
 
 /**
  * Created by Calabash on 2017/5/12.
- * The LeetCode 55th
+ * LeetCode 55th
  * Description : https://leetcode.com/problems/jump-game/#/description
  * Tags : Array, Greedy
  */

@@ -4,7 +4,7 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/5.
- * The LeetCode 141th
+ * LeetCode 141th
  * Tags : Linked List, Two Points
  */
 public class LinkedListCycle_141 {

@@ -7,8 +7,11 @@ package solutions.string;
  */
 public class ReverseWordsInAStringIII_557 {
 
-    // Time Limit Exceeded
+    /**
+     * Time Limit Exceeded
+     */
     public String reverseWords_1(String s) {
+
         String reString = "";
         int start = 0;
         for (int i = 0; i < s.length(); i++){
@@ -24,8 +27,11 @@ public class ReverseWordsInAStringIII_557 {
         return reString;
     }
 
-    // Accepted
+    /**
+     * Status : Accepted
+     */
     public String reverseWords_2(String s) {
+
         String reString = "", word = "";
         int start = 0;
         for (int i = 0; i < s.length(); i++){

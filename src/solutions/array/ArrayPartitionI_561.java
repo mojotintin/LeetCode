@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by Calabash on 2017/4/23.
- * The LeetCode 561th
+ * LeetCode 561th
  * Tags : Array
  */
 public class ArrayPartitionI_561 {

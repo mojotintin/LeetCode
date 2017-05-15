@@ -2,7 +2,7 @@ package solutions.dp;
 
 /**
  * Created by Calabash on 2017/5/14.
- * The LeetCode 96th
+ * LeetCode 96th
  * Description : https://leetcode.com/problems/unique-binary-search-trees/#/description
  * Tags : Tree, Dynamic Programming
  */

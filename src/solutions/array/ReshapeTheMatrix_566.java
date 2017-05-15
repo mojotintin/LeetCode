@@ -2,7 +2,7 @@ package solutions.array;
 
 /**
  * Created by Calabash on 2017/5/3.
- * The LeetCode 566th
+ * LeetCode 566th
  * Tags : Array
  */
 public class ReshapeTheMatrix_566 {

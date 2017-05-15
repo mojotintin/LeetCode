@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/11.
- * The LeetCode 89th
+ * LeetCode 89th
  * Description : https://leetcode.com/problems/gray-code/#/description
  * Tags : Backtracking
  */

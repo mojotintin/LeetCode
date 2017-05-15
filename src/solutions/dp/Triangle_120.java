@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/14.
- * The LeetCode 120th
+ * LeetCode 120th
  * Description : https://leetcode.com/problems/triangle/#/description
  * Tags : Array, Dynamic Programming
  */

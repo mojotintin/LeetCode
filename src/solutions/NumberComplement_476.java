@@ -2,7 +2,7 @@ package solutions;
 
 /**
  * Created by calabash on 2017/3/27.
- * LeetCode 476th Number Complement
+ * LeetCode 476th : Number Complement
  */
 public class NumberComplement_476 {
 
