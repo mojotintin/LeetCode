@@ -1,12 +1,18 @@
-package solutions;
+package solutions.math;
 
 /**
  * Created by Calabash on 2017/4/13.
- * The LeetCode 400th
- * √
+ * LeetCode 400th : Nth Digit
+ * Description : https://leetcode.com/problems/nth-digit/#/description
+ * Difficulty : Easy
+ * Tags : Math
  */
 public class NthDigit_400 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 6ms
+     */
     public int findNthDigit(int n) {
         int c = 1;
         long m = 9;
@@ -15,6 +21,7 @@ public class NthDigit_400 {
             c += 1;
             m *= 10;
         }
+
         return Character.getNumericValue((String.valueOf((long) (Math.pow(10, c - 1)) + (n - 1) / c).charAt((n - 1) % c)));
     }
 }

@@ -1,11 +1,18 @@
-package solutions;
+package solutions.array;
 
 /**
  * Created by Calabash on 2017/4/24.
- * The LeetCode 42th
+ * LeetCode 42th : Trapping Rain Water
+ * Description : https://leetcode.com/problems/trapping-rain-water/#/description
+ * Difficulty : Hard
+ * Tags : Array, Stack, Two Points
  */
 public class TrappingRainWater_42 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 21ms
+     */
     public int trap(int[] height) {
         int water = 0;
         int[] waterHeight = new int[height.length];

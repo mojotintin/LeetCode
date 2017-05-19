@@ -1,11 +1,18 @@
-package solutions;
+package solutions.twopoints;
 
 /**
  * Created by Calabash on 2017/5/3.
- *
+ * LeetCode 567th : Permutation in String
+ * Description : https://leetcode.com/problems/permutation-in-string/#/description
+ * Difficulty : Medium
+ * Tags : Two Points
  */
 public class PermutationInString_567 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 25ms
+     */
     public boolean checkInclusion(String s1, String s2) {
 
         if (s2.length() < s1.length()) return false;

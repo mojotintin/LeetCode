@@ -1,12 +1,18 @@
-package solutions;
+package solutions.hashtable;
 
 /**
  * Created by calabash on 2017/4/10.
- * The LeetCode 500th
- * √
+ * LeetCode 500th : Keyboard Row
+ * Description : https://leetcode.com/problems/keyboard-row/#/description
+ * Difficulty : Easy
+ * Tags : Hash Table
  */
 public class KeyboardRow_500 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 3ms
+     */
     public String[] findWords(String[] words) {
         String[] rowWords = new String[words.length];
         int count = 0;

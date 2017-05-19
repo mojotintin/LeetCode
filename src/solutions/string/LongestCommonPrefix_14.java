@@ -1,11 +1,18 @@
-package solutions;
+package solutions.string;
 
 /**
  * Created by Calabash on 2017/5/4.
- *
+ * LeetCode 14th : Longest Common Prefix
+ * Description : https://leetcode.com/problems/longest-common-prefix/#/description
+ * Difficulty : Easy
+ * Tags : String
  */
 public class LongestCommonPrefix_14 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 12ms
+     */
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) return "";
         int prefixLen = 0, prefixMaxLen = Integer.MAX_VALUE;

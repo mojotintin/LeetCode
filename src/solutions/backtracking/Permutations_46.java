@@ -1,18 +1,25 @@
-package solutions;
+package solutions.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/9.
- *
+ * LeetCode 46th : Permutations
+ * Description : https://leetcode.com/problems/permutations/#/description
+ * Difficulty : Medium
+ * Tags : Backtracking
  */
 public class Permutations_46 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 6ms
+     */
     public List<List<Integer>> permute(int[] nums) {
 
-    	List<List<Integer>> permutations = new ArrayList<List<Integer>>();
-    	List<Integer> permutation = new ArrayList<Integer>();
+    	List<List<Integer>> permutations = new ArrayList<>();
+    	List<Integer> permutation = new ArrayList<>();
         if (nums == null || nums.length == 0) {
             permutations.add(permutation);
             return permutations;
@@ -21,7 +28,7 @@ public class Permutations_46 {
     	permutations.add(permutation);
 
     	for (int i = 1; i < nums.length; i++) {
-    		List<List<Integer>> pers = new ArrayList<List<Integer>>();
+    		List<List<Integer>> pers = new ArrayList<>();
     		for (List<Integer> per : permutations) {
     			for (int j = 0; j <= per.size(); j++) {
     			    List<Integer> temp = new ArrayList<>(per);

@@ -1,11 +1,18 @@
-package solutions;
+package solutions.math;
 
 /**
  * Created by calabash on 2017/4/7.
- *
+ * LeetCode 537th : Complex Number Multiplication
+ * Description : https://leetcode.com/problems/complex-number-multiplication/#/description
+ * Difficulty : Medium
+ * Tags : Math, String
  */
 public class ComplexNumberMultiplication_537 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 6ms
+     */
     public String complexNumberMultiply(String a, String b) {
         int a1, a2, b1, b2;
         a1 = Integer.valueOf(a.substring(0, a.indexOf('+')));

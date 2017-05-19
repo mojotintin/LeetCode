@@ -1,14 +1,20 @@
-package solutions;
+package solutions.hashtable;
 
 import java.util.*;
 
 /**
  * Created by Calabash on 2017/5/7.
- *
+ * LeetCode 49th : Group Anagrams
+ * Description : https://leetcode.com/problems/anagrams/#/description
+ * Difficulty : Medium
+ * Tags : Hash Table, String
  */
 public class GroupAnagrams_49 {
 
-
+    /**
+     * Status : Accepted
+     * Runtime : 27ms
+     */
     public List<List<String>> groupAnagrams(String[] strs) {
 
         if(strs == null || strs.length == 0) return new ArrayList<List<String>>();

@@ -1,12 +1,18 @@
-package solutions;
+package solutions.array;
 
 /**
  * Created by Calabash on 2017/4/13.
- * The LeetCode 48th
- * √
+ * LeetCode 48th : Rotate Image
+ * Description : https://leetcode.com/problems/rotate-image/#/description
+ * Difficulty : Medium
+ * Tags : Array
  */
 public class RotateImage_48 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 4ms
+     */
     public void rotate(int[][] matrix) {
         int len = matrix.length;
         int mi, mj;

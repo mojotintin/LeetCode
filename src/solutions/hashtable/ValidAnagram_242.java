@@ -1,12 +1,18 @@
-package solutions;
+package solutions.hashtable;
 
 /**
  * Created by Calabash on 2017/4/17.
- * The LeetCode 242th
- * √
+ * LeetCode 242th : Valid Anagram
+ * Description : https://leetcode.com/problems/valid-anagram/#/description
+ * Difficulty : Easy
+ * Tags : Hash Table, Sort
  */
 public class ValidAnagram_242 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 8ms
+     */
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length())
             return false;
