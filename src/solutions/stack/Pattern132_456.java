@@ -1,14 +1,22 @@
-package solutions;
+package solutions.stack;
 
 import java.util.Stack;
 
 /**
  * Created by calabash on 2017/3/31.
- * LeetCode 456th
+ * LeetCode 456th : 132 Pattern
+ * Description : https://leetcode.com/problems/132-pattern/#/description
+ * Difficulty : Medium
+ * Tags : Stack
  */
 public class Pattern132_456 {
 
-    // Solution 1
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 366ms
+     * Time complexity : O(n ^ 2)
+     */
     public boolean find132pattern_1(int[] nums) {
 
         if (nums.length < 3){
@@ -30,7 +38,12 @@ public class Pattern132_456 {
         return false;
     }
 
-    // Solution 2
+    /**
+     * Submission : 2
+     * Status : Accepted
+     * Runtime : 33ms
+     * Time complexity : O(n)
+     */
     public boolean find132pattern_2(int[] nums) {
 
         int len = nums.length;

@@ -1,11 +1,18 @@
-package solutions;
+package solutions.string;
 
 /**
  * Created by Calabash on 2017/4/16.
- *
+ * LeetCode 551th : Student Attendance Record I
+ * Description : https://leetcode.com/problems/student-attendance-record-i/#/description
+ * Difficulty : Easy
+ * Tags : String
  */
 public class StudentAttendanceRecordI_551 {
 
+    /**
+     * Status : Accepted
+     * Runtime : 10ms
+     */
     public boolean checkRecord(String s) {
         int aCount = 0;
         int lConCount = 0;

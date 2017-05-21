@@ -1,15 +1,24 @@
-package solutions;
+package solutions.design;
 
 import java.util.Vector;
 
 /**
  * Created by calabash on 2017/4/7.
- * The leetCode 155th
+ * LeetCode 155th : Min Stack
+ * Description : https://leetcode.com/problems/min-stack/#/description
+ * Difficulty : Easy
+ * Tags : Stack, Design
  */
 public class MinStack_155 {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 118ms
+     */
     int min = Integer.MAX_VALUE;
     Vector<Integer> stack = null;
+
     /** initialize your data structure here. */
     public MinStack_155() {
         stack = new Vector<>();

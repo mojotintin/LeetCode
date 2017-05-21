@@ -1,14 +1,23 @@
-package solutions;
+package solutions.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Calabash on 2017/5/8.
- *
+ * LeetCode 17th : Letter Combinations of a Phone Number
+ * Description : https://leetcode.com/problems/letter-combinations-of-a-phone-number/#/description
+ * Difficulty : Medium
+ * Tags : Backtracking, String
  */
 public class LetterCombinationsOfAPhoneNumber_17 {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 5ms
+     */
     public List<String> letterCombinations(String digits) {
         if (digits.length() == 0) {
     		return new ArrayList<String>();
@@ -22,7 +31,7 @@ public class LetterCombinationsOfAPhoneNumber_17 {
         for (int i = 0; i < digits.length(); i ++) {
         	List<String> list = new ArrayList<>();
         	String digit = cha[Character.getNumericValue(digits.charAt(i)) - 1];
-        	if (digit == "") {
+        	if (Objects.equals(digit, "")) {
         		return new ArrayList<String>();
         	}
         	for (String s : letters) {

@@ -1,15 +1,19 @@
-package solutions;
+package solutions.array;
 
 /**
  * Created by Calabash on 2017/4/19.
- * The leetCode 167th
- * √
+ * LeetCode 167th : Two Sum II - Input array is sorted
+ * Description : https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description
+ * Difficulty : Easy
+ * Tags : Array, Two Points, Binary Search
  */
 public class TwoSumII_InputArrayISorted_167 {
 
     /*
-     * time takes too long
-     * o(n*n) solutions
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 48ms
+     * Time complexity : O(n ^ 2)
      */
     public int[] twoSum_1(int[] numbers, int target) {
         int[] index = new int[2];
@@ -23,7 +27,12 @@ public class TwoSumII_InputArrayISorted_167 {
         return index;
     }
 
-    // o(n) solutions
+     /*
+     * Submission : 2
+     * Status : Accepted
+     * Runtime : 1ms
+     * Time complexity : O(n)
+     */
      public int[] twoSum_2(int[] numbers, int target) {
         int in1 = 0, in2 = numbers.length - 1;
         while (numbers[in1] + numbers[in2] != target) {
