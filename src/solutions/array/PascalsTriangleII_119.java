@@ -17,7 +17,7 @@ public class PascalsTriangleII_119 {
      * Runtime : 3ms
      */
     public List<Integer> getRow(int rowIndex) {
-        List<Integer> row = new ArrayList<Integer>();
+        List<Integer> row = new ArrayList<>();
         row.add(1);
         if (rowIndex == 0) return row;
         row.add(1);
