@@ -9,6 +9,7 @@ package solutions.greedy;
 public class JumpGame_55 {
 
 	/**
+	 * Submission : 1
 	 * Status : Accepted
      * Runtime : 8ms
 	 */

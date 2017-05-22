@@ -12,6 +12,7 @@ import java.util.List;
 public class GrayCode_89 {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 3ms
      */
@@ -27,6 +28,7 @@ public class GrayCode_89 {
     }
 
     /**
+     * Submission : 2
      * Status : Accepted
      * Runtime : 2ms
      */
@@ -50,6 +52,7 @@ public class GrayCode_89 {
     }
 
     /**
+     * Submission : 3
      * Status : Accepted
      * Runtime : 1ms
      */

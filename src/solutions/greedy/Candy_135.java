@@ -10,6 +10,7 @@ package solutions.greedy;
 public class Candy_135 {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 5ms
      */
