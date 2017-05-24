@@ -40,6 +40,6 @@ public class MergeTwoSortedLists {
             head = head.next;
         }
 
-        return newHhead.next;
+        return newHead.next;
     }
 }
