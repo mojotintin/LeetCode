@@ -7,23 +7,24 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/25.
- * Problem Number : 102
- * problem Name : Binary Tree Level Order Traversal
- * Description : https://leetcode.com/problems/binary-tree-level-order-traversal/#/description
- * Difficulty : Medium
+ * Problem Number : 107
+ * problem Name : Binary Tree Level Order Traversal II
+ * Description : https://leetcode.com/problems/binary-tree-level-order-traversal-ii/#/description
+ * Difficulty : Easy
  * Tags : Tree, Breadth-first Search
  */
-public class BinaryTreeLevelOrderTraversal {
+public class BinaryTreeLevelOrderTraversalII {
 
-     /**
+    /**
      * Submission : 1
      * Status : Accepted
      * Runtime : 3ms
      */
-     public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
 
         List<List<Integer>> list = new ArrayList<>();
         if (root == null) return list;
+
         List<TreeNode> level = new ArrayList<>();
         level.add(root);
 
@@ -39,7 +40,7 @@ public class BinaryTreeLevelOrderTraversal {
         			temp.add(node.right);
         		}
         	}
-        	list.add(order);
+        	list.add(0, order);
         	level = temp;
         }
 
