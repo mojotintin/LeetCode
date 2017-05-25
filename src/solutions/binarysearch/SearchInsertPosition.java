@@ -2,12 +2,13 @@ package solutions.binarysearch;
 
 /**
  * Created by Calabash on 2017/5/4.
- * LeetCode : Search Insert Position
+ * Problem Number : 35
+ * Problem Name : Search Insert Position
  * Description : https://leetcode.com/problems/search-insert-position/#/description
  * Difficulty : Easy
  * Tags : Array, Binary Search
  */
-public class SearchInsertPosition_35 {
+public class SearchInsertPosition {
 
     /**
      * Status : Accepted
@@ -21,7 +22,6 @@ public class SearchInsertPosition_35 {
         int min = 0, max = nums.length - 1, mid = (min + max) / 2;
 
         while (max - min > 1) {
-            System.out.println(mid);
             if (nums[mid] > target) {
                 max = mid;
                 mid = (min + max) / 2;

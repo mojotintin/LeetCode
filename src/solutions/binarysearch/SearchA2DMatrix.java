@@ -2,11 +2,13 @@ package solutions.binarysearch;
 
 /**
  * Created by Calabash on 2017/5/13.
- * The LeetCode 74th
+ * Problem Number : 74
+ * Problem Name : Search a 2D Matrix
  * Description : https://leetcode.com/problems/search-a-2d-matrix/#/description
+ * Difficulty : Medium
  * Tags : Array, Binary Search
  */
-public class SearchA2DMatrix_74 {
+public class SearchA2DMatrix {
 
     /**
      * Status : Accepted
