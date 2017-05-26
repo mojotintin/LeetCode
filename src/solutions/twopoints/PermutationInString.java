@@ -2,14 +2,16 @@ package solutions.twopoints;
 
 /**
  * Created by Calabash on 2017/5/3.
- * LeetCode 567th : Permutation in String
+ * Problem Number : 567
+ * Problem Name : Permutation in String
  * Description : https://leetcode.com/problems/permutation-in-string/#/description
  * Difficulty : Medium
  * Tags : Two Points
  */
-public class PermutationInString_567 {
+public class PermutationInString {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 25ms
      */
@@ -38,6 +40,7 @@ public class PermutationInString_567 {
     }
 
     private boolean isPermutation(int[] charCount1, int[] charCount2) {
+
         for (int i = 0; i < 26; i++) {
             if (charCount1[i] != charCount2[i]) return false;
         }

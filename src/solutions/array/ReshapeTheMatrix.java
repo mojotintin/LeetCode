@@ -2,11 +2,19 @@ package solutions.array;
 
 /**
  * Created by Calabash on 2017/5/3.
- * LeetCode 566th
+ * Problem Number : 566
+ * Problem Name : Reshape the Matrix
+ * Description : https://leetcode.com/problems/reshape-the-matrix/#/description
+ * Difficulty : Easy
  * Tags : Array
  */
-public class ReshapeTheMatrix_566 {
+public class ReshapeTheMatrix {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 8ms
+     */
     public int[][] matrixReshape(int[][] nums, int r, int c) {
 
         if (nums.length == 0) return nums;

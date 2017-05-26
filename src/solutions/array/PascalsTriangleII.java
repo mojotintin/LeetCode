@@ -5,14 +5,16 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/18.
- * LeetCode 119th : Pascal's Triangle II
+ * Problem Number : 119
+ * Problem Name : Pascal's Triangle II
  * Description : https://leetcode.com/problems/pascals-triangle-ii/#/description
  * Difficulty : Easy
  * Tags : Array
  */
-public class PascalsTriangleII_119 {
+public class PascalsTriangleII {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 3ms
      */

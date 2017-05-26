@@ -2,18 +2,21 @@ package solutions.hashtable;
 
 /**
  * Created by Calabash on 2017/4/17.
- * LeetCode 242th : Valid Anagram
+ * Problem Number : 242
+ * Problem Name : Valid Anagram
  * Description : https://leetcode.com/problems/valid-anagram/#/description
  * Difficulty : Easy
  * Tags : Hash Table, Sort
  */
-public class ValidAnagram_242 {
+public class ValidAnagram {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 8ms
      */
     public boolean isAnagram(String s, String t) {
+
         if (s.length() != t.length())
             return false;
         int[] sc = new int[26];

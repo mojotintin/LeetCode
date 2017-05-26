@@ -2,18 +2,21 @@ package solutions.math;
 
 /**
  * Created by Calabash on 2017/4/13.
- * LeetCode 400th : Nth Digit
+ * Problem Number : 400
+ * Problem Name : Nth Digit
  * Description : https://leetcode.com/problems/nth-digit/#/description
  * Difficulty : Easy
  * Tags : Math
  */
-public class NthDigit_400 {
+public class NthDigit {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 6ms
      */
     public int findNthDigit(int n) {
+
         int c = 1;
         long m = 9;
         while (n > c * m){

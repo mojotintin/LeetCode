@@ -5,14 +5,16 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/19.
- * LeetCode 442th : Find All Duplicates in an Array
+ * Problem Number : 442
+ * Problem Name : Find All Duplicates in an Array
  * Description : https://leetcode.com/problems/find-all-duplicates-in-an-array/#/description
  * Difficulty : Medium
  * Tags : Array
  */
-public class FindAllDuplicatesInAnArray_442 {
+public class FindAllDuplicatesInAnArray {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 17ms
      */

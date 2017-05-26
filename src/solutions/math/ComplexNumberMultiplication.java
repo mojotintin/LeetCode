@@ -2,14 +2,16 @@ package solutions.math;
 
 /**
  * Created by calabash on 2017/4/7.
- * LeetCode 537th : Complex Number Multiplication
+ * Problem Number : 537
+ * Problem Name : Complex Number Multiplication
  * Description : https://leetcode.com/problems/complex-number-multiplication/#/description
  * Difficulty : Medium
  * Tags : Math, String
  */
-public class ComplexNumberMultiplication_537 {
+public class ComplexNumberMultiplication {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 6ms
      */

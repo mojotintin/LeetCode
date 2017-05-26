@@ -2,18 +2,21 @@ package solutions.hashtable;
 
 /**
  * Created by calabash on 2017/4/10.
- * LeetCode 500th : Keyboard Row
+ * Problem Number : 500
+ * Problem Name : Keyboard Row
  * Description : https://leetcode.com/problems/keyboard-row/#/description
  * Difficulty : Easy
  * Tags : Hash Table
  */
-public class KeyboardRow_500 {
+public class KeyboardRow {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 3ms
      */
     public String[] findWords(String[] words) {
+
         String[] rowWords = new String[words.length];
         int count = 0;
         boolean flag;
@@ -30,14 +33,13 @@ public class KeyboardRow_500 {
         }
 
         String[] rString = new String[count];
-        for (int i = 0; i < count; i++){ rString[i] = rowWords[i]; }
+        System.arraycopy(rowWords, 0, rString, 0, count);
         return rString;
     }
 
-    public int rowCount(char c){
+    private int rowCount(char c){
         char[] row1 = new char[]{'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'};
         char[] row2 = new char[]{'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'};
-        char[] row3 = new char[]{'z', 'x', 'c', 'v', 'b', 'n', 'm'};
         for (char i : row1) { if (i == c){ return 1; } }
         for (char i : row2) { if (i == c){ return 2; } }
         return 3;

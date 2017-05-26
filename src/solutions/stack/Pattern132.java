@@ -4,12 +4,13 @@ import java.util.Stack;
 
 /**
  * Created by calabash on 2017/3/31.
- * LeetCode 456th : 132 Pattern
+ * Problem Number : 456
+ * Problem Name : 132 Pattern
  * Description : https://leetcode.com/problems/132-pattern/#/description
  * Difficulty : Medium
  * Tags : Stack
  */
-public class Pattern132_456 {
+public class Pattern132 {
 
     /**
      * Submission : 1

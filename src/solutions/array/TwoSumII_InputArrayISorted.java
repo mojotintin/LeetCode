@@ -7,7 +7,7 @@ package solutions.array;
  * Difficulty : Easy
  * Tags : Array, Two Points, Binary Search
  */
-public class TwoSumII_InputArrayISorted_167 {
+public class TwoSumII_InputArrayISorted {
 
     /*
      * Submission : 1
@@ -16,6 +16,7 @@ public class TwoSumII_InputArrayISorted_167 {
      * Time complexity : O(n ^ 2)
      */
     public int[] twoSum_1(int[] numbers, int target) {
+
         int[] index = new int[2];
         for (int i = 0; i < numbers.length; i ++)
             for (int j = i + 1; j < numbers.length; j ++)
@@ -34,6 +35,7 @@ public class TwoSumII_InputArrayISorted_167 {
      * Time complexity : O(n)
      */
      public int[] twoSum_2(int[] numbers, int target) {
+
         int in1 = 0, in2 = numbers.length - 1;
         while (numbers[in1] + numbers[in2] != target) {
             if (numbers[in1] + numbers[in2] > target)

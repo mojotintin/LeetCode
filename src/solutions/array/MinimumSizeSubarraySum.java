@@ -2,14 +2,16 @@ package solutions.array;
 
 /**
  * Created by Calabash on 2017/5/15.
- * LeetCode 209th problem : Minimum Size Subarray Sum
+ * Problem Number : 209
+ * Problem Name : Minimum Size Subarray Sum
  * Description : https://leetcode.com/problems/binary-tree-paths/#/description
  * Difficulty : Medium
  * Tags : Array, Two Pointers, Binary Search
  */
-public class MinimumSizeSubarraySum_209 {
+public class MinimumSizeSubarraySum {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 2ms
      */

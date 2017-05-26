@@ -2,14 +2,16 @@ package solutions.array;
 
 /**
  * Created by Calabash on 2017/4/13.
- * LeetCode 48th : Rotate Image
+ * Problem Number : 48
+ * Problem Name : Rotate Image
  * Description : https://leetcode.com/problems/rotate-image/#/description
  * Difficulty : Medium
  * Tags : Array
  */
-public class RotateImage_48 {
+public class RotateImage {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 4ms
      */

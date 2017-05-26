@@ -2,14 +2,16 @@ package solutions.array;
 
 /**
  * Created by Calabash on 2017/4/24.
- * LeetCode 42th : Trapping Rain Water
+ * Problem Number : 42
+ * Problem Name : Trapping Rain Water
  * Description : https://leetcode.com/problems/trapping-rain-water/#/description
  * Difficulty : Hard
  * Tags : Array, Stack, Two Points
  */
-public class TrappingRainWater_42 {
+public class TrappingRainWater {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 21ms
      */
@@ -38,7 +40,6 @@ public class TrappingRainWater_42 {
         for (int i = 0; i < height.length; i ++) {
             water += waterHeight[i] - height[i];
         }
-
 
         return water;
     }

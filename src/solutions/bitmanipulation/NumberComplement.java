@@ -2,12 +2,13 @@ package solutions.bitmanipulation;
 
 /**
  * Created by calabash on 2017/3/27.
- * LeetCode 476th : Number Complement
+ * Problem Number : 476
+ * Problem Name : Number Complement
  * Description : https://leetcode.com/problems/number-complement/#/description
  * Difficulty : Easy
  * Tags : Bit Manipulation
  */
-public class NumberComplement_476 {
+public class NumberComplement {
 
     /**
      * Submission : 1

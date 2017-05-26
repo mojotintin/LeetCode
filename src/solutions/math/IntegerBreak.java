@@ -2,13 +2,16 @@ package solutions.math;
 
 /**
  * Created by Calabash on 2017/5/14.
- * The LeetCode 343th
+ * Problem Number : 343
+ * Problem Name : Integer Break
  * Description : https://leetcode.com/problems/integer-break/#/description
+ * Difficulty : Medium
  * Tags : Dynamic Programming, Math
  */
-public class IntegerBreak_343 {
+public class IntegerBreak {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 0ms
      * Note : Math
