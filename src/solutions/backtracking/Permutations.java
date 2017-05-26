@@ -5,14 +5,16 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/9.
- * LeetCode 46th : Permutations
+ * Problem Number : 46
+ * Problem Name : Permutations
  * Description : https://leetcode.com/problems/permutations/#/description
  * Difficulty : Medium
  * Tags : Backtracking
  */
-public class Permutations_46 {
+public class Permutations {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 6ms
      */

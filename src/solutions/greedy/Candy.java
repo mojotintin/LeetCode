@@ -2,12 +2,13 @@ package solutions.greedy;
 
 /**
  * Created by Calabash on 2017/5/22.
- * LeetCode 135th : Candy
+ * Problem Number : 135
+ * Problem Name : Candy
  * Description : https://leetcode.com/problems/candy/#/description
  * Difficulty : Hard
  * Tags : Greedy
  */
-public class Candy_135 {
+public class Candy {
 
     /**
      * Submission : 1

@@ -5,11 +5,13 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/11.
- * LeetCode 89th
+ * Problem Number : 89
+ * Problem Name : Gray Code
  * Description : https://leetcode.com/problems/gray-code/#/description
+ * Difficulty : Mediums
  * Tags : Backtracking
  */
-public class GrayCode_89 {
+public class GrayCode {
 
     /**
      * Submission : 1

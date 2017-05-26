@@ -7,11 +7,13 @@ import java.util.List;
  * Problem Number : 120
  * Problem Name : Triangle
  * Description : https://leetcode.com/problems/triangle/#/description
+ * Difficulty : Medium
  * Tags : Array, Dynamic Programming
  */
-public class Triangle_120 {
+public class Triangle {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 7ms
      */

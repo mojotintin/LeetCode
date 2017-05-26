@@ -4,12 +4,13 @@ import java.util.Vector;
 
 /**
  * Created by calabash on 2017/4/7.
- * LeetCode 155th : Min Stack
+ * Problem Number : 155
+ * Problem Name : Min Stack
  * Description : https://leetcode.com/problems/min-stack/#/description
  * Difficulty : Easy
  * Tags : Stack, Design
  */
-public class MinStack_155 {
+public class MinStack {
 
     /**
      * Submission : 1
@@ -20,7 +21,7 @@ public class MinStack_155 {
     Vector<Integer> stack = null;
 
     /** initialize your data structure here. */
-    public MinStack_155() {
+    public MinStack() {
         stack = new Vector<>();
     }
 

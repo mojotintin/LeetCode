@@ -6,12 +6,13 @@ import java.util.Objects;
 
 /**
  * Created by Calabash on 2017/5/8.
- * LeetCode 17th : Letter Combinations of a Phone Number
+ * problem Number : 17
+ * Problem Name : Letter Combinations of a Phone Number
  * Description : https://leetcode.com/problems/letter-combinations-of-a-phone-number/#/description
  * Difficulty : Medium
  * Tags : Backtracking, String
  */
-public class LetterCombinationsOfAPhoneNumber_17 {
+public class LetterCombinationsOfAPhoneNumber {
 
     /**
      * Submission : 1
@@ -19,8 +20,9 @@ public class LetterCombinationsOfAPhoneNumber_17 {
      * Runtime : 5ms
      */
     public List<String> letterCombinations(String digits) {
+
         if (digits.length() == 0) {
-    		return new ArrayList<String>();
+    		return new ArrayList<>();
     	}
 
     	String[] cha = new String[]{"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
@@ -32,7 +34,7 @@ public class LetterCombinationsOfAPhoneNumber_17 {
         	List<String> list = new ArrayList<>();
         	String digit = cha[Character.getNumericValue(digits.charAt(i)) - 1];
         	if (Objects.equals(digit, "")) {
-        		return new ArrayList<String>();
+        		return new ArrayList<>();
         	}
         	for (String s : letters) {
         		for (int j = 0; j < digit.length(); j ++) {

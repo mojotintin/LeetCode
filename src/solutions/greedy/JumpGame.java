@@ -2,11 +2,13 @@ package solutions.greedy;
 
 /**
  * Created by Calabash on 2017/5/12.
- * LeetCode 55th
+ * Problem Number : 55
+ * Problem NAme : Jump Game
  * Description : https://leetcode.com/problems/jump-game/#/description
+ * Difficulty : Medium
  * Tags : Array, Greedy
  */
-public class JumpGame_55 {
+public class JumpGame {
 
 	/**
 	 * Submission : 1

@@ -2,12 +2,13 @@ package solutions.dp;
 
 /**
  * Created by Calabash on 2017/5/22.
- * LeetCode 64th : Minimum Path Sum
+ * Problem Number : 64
+ * Problem Name : Minimum Path Sum
  * Description : https://leetcode.com/problems/minimum-path-sum/#/description
  * Difficulty : Medium
  * Tags : Array, Dynamic Programming
  */
-public class MinimumPathSum_64 {
+public class MinimumPathSum {
 
     /**
      * Submission : 1
