@@ -37,7 +37,7 @@ public class PermutationInString_567 {
         return false;
     }
 
-    public boolean isPermutation(int[] charCount1, int[] charCount2) {
+    private boolean isPermutation(int[] charCount1, int[] charCount2) {
         for (int i = 0; i < 26; i++) {
             if (charCount1[i] != charCount2[i]) return false;
         }
