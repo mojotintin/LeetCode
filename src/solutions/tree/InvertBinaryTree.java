@@ -4,11 +4,19 @@ import entities.TreeNode;
 
 /**
  * Created by calabash on 2017/3/28.
- * LeetCode 226th Invert Binary Tree
+ * Problem Number : 226
+ * Problem Name : Invert Binary Tree
+ * Description : https://leetcode.com/problems/invert-binary-tree/#/description
+ * Difficulty : Easy
  * Tags : Tree
  */
-public class InvertBinaryTree_226 {
+public class InvertBinaryTree {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 0ms
+     */
     public TreeNode invertTree(TreeNode root) {
 
         if (root != null && (root.left != null || root.right != null)) {

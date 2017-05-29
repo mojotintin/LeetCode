@@ -7,11 +7,19 @@ import java.util.Queue;
 
 /**
  * Created by calabash on 2017/4/6.
- * The LeetCode 523th
+ * Problem Number : 513
+ * Problem Name : Find Bottom Left Tree Value
+ * Description : https://leetcode.com/problems/find-bottom-left-tree-value/#/description
+ * Difficulty : Medium
  * Tags : Tree, Depth-first Search, Breadth-first Search
  */
-public class FindBottomLeftTreeValue_513 {
+public class FindBottomLeftTreeValue {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 9ms
+     */
     public int findBottomLeftValue(TreeNode root) {
 
         Queue<TreeNode> queue = new LinkedList<>();

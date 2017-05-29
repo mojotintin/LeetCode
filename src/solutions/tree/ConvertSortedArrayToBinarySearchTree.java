@@ -4,14 +4,16 @@ import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/5/20.
- * LeetCode : Convert Sorted Array to Binary Search Tree
+ * Problem Number : 108
+ * Problem Name : Convert Sorted Array to Binary Search Tree
  * Description : https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/description
  * Difficulty : Easy
  * Tags : Tree, Depth-first Search
  */
-public class ConvertSortedArraytoBinarySearchTree_108 {
+public class ConvertSortedArrayToBinarySearchTree {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 1ms
      */
@@ -22,7 +24,7 @@ public class ConvertSortedArraytoBinarySearchTree_108 {
 
         return root;
     }
-    public void generateBST(int[] nums, TreeNode root, int min, int max){
+    private void generateBST(int[] nums, TreeNode root, int min, int max){
         if(max == min) {
             root.val = nums[max];
             return;

@@ -7,19 +7,22 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/18.
- * LeetCode 199th
+ * Problem Number : 199
+ * Problem Name :
  * Description : https://leetcode.com/problems/binary-tree-right-side-view/#/description
  * Difficulty : Medium
  * Tags : Tree, Depth-first Search, Breadth-first Search
  */
-public class BinaryTreeRightSideView_199 {
+public class BinaryTreeRightSideView {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 4ms
      * Note : BFS
      */
     public List<Integer> rightSideView(TreeNode root) {
+
         List<Integer> view = new ArrayList<Integer>();
         if (root == null) return view;
         List<TreeNode> floor = new ArrayList<>();

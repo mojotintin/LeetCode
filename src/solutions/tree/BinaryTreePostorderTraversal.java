@@ -8,13 +8,22 @@ import java.util.Stack;
 
 /**
  * Created by Calabash on 2017/5/12.
- * The LeetCode 145th
+ * Problem Number : 145
+ * Problem Name : Binary Tree Postorder Traversal
+ * Description : https://leetcode.com/problems/binary-tree-postorder-traversal/#/description
+ * Difficulty : Hard
  * Tags : Tree, Stack
  */
-public class BinaryTreePostorderTraversal_145 {
+public class BinaryTreePostorderTraversal {
 
-    // Recursive
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     * Note : Recursive
+     */
     List<Integer> list = new ArrayList<>();
+
     public List<Integer> postorderTraversal_1(TreeNode root) {
 
         if (root == null) {
@@ -30,8 +39,14 @@ public class BinaryTreePostorderTraversal_145 {
         return list;
     }
 
-    // using stack
+    /**
+     * Submission : 2
+     * Status : Accepted
+     * Runtime : 2ms
+     * Note : Stack
+     */
     public List<Integer> postorderTraversal_2(TreeNode root) {
+
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         if (root == null) {

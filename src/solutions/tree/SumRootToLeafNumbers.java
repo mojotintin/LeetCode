@@ -4,12 +4,13 @@ import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/5/21.
- * LeetCode 129th : Sum Root to Leaf Numbers
+ * Problem Number : 129
+ * Problem Name : Sum Root to Leaf Numbers
  * Description : https://leetcode.com/problems/sum-root-to-leaf-numbers/#/description
  * Difficulty : Medium
  * Tags : Tree, Depth-First Search
  */
-public class SumRootToLeafNumbers_129 {
+public class SumRootToLeafNumbers {
 
     /**
      * Submission : 1
@@ -20,7 +21,8 @@ public class SumRootToLeafNumbers_129 {
         return sumOfRootToLeaf(root, 0);
     }
 
-    public int sumOfRootToLeaf(TreeNode root, int sum) {
+    private int sumOfRootToLeaf(TreeNode root, int sum) {
+
         if(root ==null) return sum;
     	if (root.left == null && root.right == null) {
     	    return sum * 10 + root.val;

@@ -4,18 +4,26 @@ import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/4/24.
- * The LeetCode 563th
+ * Problem Number : 563
+ * Problem Name : Binary Tree Tilt
+ * Description : https://leetcode.com/problems/binary-tree-tilt/#/description
+ * Difficulty : Easy
  * Tags : Tree
  */
-public class BinaryTreeTilt_563 {
+public class BinaryTreeTilt {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 11ms
+     */
     public int findTilt(TreeNode root) {
         if(root == null) return 0;
         sumOfSubtree(root);
         return getTilt(root);
     }
 
-    public void sumOfSubtree(TreeNode root) {
+    private void sumOfSubtree(TreeNode root) {
 
         if (root == null) return;
         if (root.left != null && root.right != null) {
@@ -33,7 +41,7 @@ public class BinaryTreeTilt_563 {
         }
     }
 
-    public int getTilt(TreeNode root) {
+    private int getTilt(TreeNode root) {
 
         if (root.left == null && root.right == null) {
             return 0;

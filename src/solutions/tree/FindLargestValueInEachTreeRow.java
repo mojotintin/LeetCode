@@ -8,11 +8,19 @@ import java.util.Queue;
 
 /**
  * Created by Calabash on 2017/4/13.
- * The LeetCode 515th
+ * Problem Number : 515
+ * Problem Name : Find Largest Value in Each Tree Row
+ * Description : https://leetcode.com/problems/find-largest-value-in-each-tree-row/#/description
+ * Difficulty : Medium
  * Tags : Tree, Depth-first Search, Breadth-first Search
  */
-public class FindLargestValueInEachTreeRow_515 {
+public class FindLargestValueInEachTreeRow {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 14ms
+     */
     public List<Integer> largestValues(TreeNode root) {
         if (root == null) return new LinkedList<>();
         List<Integer> list = new LinkedList<>();

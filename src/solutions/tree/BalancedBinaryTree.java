@@ -4,12 +4,13 @@ import entities.TreeNode;
 
 /**
  * Created by Calabash on 2017/5/17.
- * LeetCode 110th problem
+ * Problem Number : 110
+ * Problem Name : Balanced Binary Tree
  * Description : https://leetcode.com/problems/balanced-binary-tree/#/description
  * Difficulty : Easy
  * Tags : Tree, Depth-first Search
  */
-public class BalancedBinaryTree_110 {
+public class BalancedBinaryTree {
 
     /**
      * Status : Accepted
@@ -24,7 +25,7 @@ public class BalancedBinaryTree_110 {
         else return isBalanced(root.left) && isBalanced(root.right) && Math.abs(depthOfTree(root.left) - depthOfTree(root.right)) <= 1;
     }
 
-    public int depthOfTree(TreeNode root) {
+    private int depthOfTree(TreeNode root) {
         if (root == null) return 0;
         if (root.left == null && root.right == null) return 1;
         else if (root.left == null) return depthOfTree(root.right) + 1;

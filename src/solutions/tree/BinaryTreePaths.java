@@ -7,14 +7,16 @@ import java.util.List;
 
 /**
  * Created by Calabash on 2017/5/15.
- * LeetCode 257th problem : Binary Tree Paths
+ * Problem : 257
+ * Problem Name : Binary Tree Paths
  * Description : https://leetcode.com/problems/binary-tree-paths/#/description
  * Difficulty : Easy
  * Tags : Tree, Depth-first Search
  */
-public class BinaryTreePaths_257 {
+public class BinaryTreePaths {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 19ms
      * Note : Recursive

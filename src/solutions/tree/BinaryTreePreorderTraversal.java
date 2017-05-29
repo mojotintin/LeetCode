@@ -8,14 +8,25 @@ import java.util.Stack;
 
 /**
  * Created by Calabash on 2017/5/12.
- * The LeetCode 144th
+ * Problem Number : 144
+ * Problem Name : Binary Tree Preorder Traversal
+ * Description : https://leetcode.com/problems/binary-tree-preorder-traversal/#/description
+ * Difficulty : Medium
  * Tags : Tree, Stack
  */
-public class BinaryTreePreorderTraversal_144 {
+public class BinaryTreePreorderTraversal {
 
-    // recursion
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     * Note : recursion
+     */
+
     List<Integer> list = new ArrayList<>();
+
     public List<Integer> preorderTraversal_1(TreeNode root) {
+
         if(root == null) return list;
         list.add(root.val);
         if(root.left != null) {
@@ -27,7 +38,12 @@ public class BinaryTreePreorderTraversal_144 {
         return list;
     }
 
-    // using stack
+    /**
+     * Submission : 2
+     * Status : Accepted
+     * Runtime : 2ms
+     * Note : Stack
+     */
     public List<Integer> preorderTraversal_2(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();

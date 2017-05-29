@@ -17,8 +17,8 @@ public class MinStack {
      * Status : Accepted
      * Runtime : 118ms
      */
-    int min = Integer.MAX_VALUE;
-    Vector<Integer> stack = null;
+    private int min = Integer.MAX_VALUE;
+    private Vector<Integer> stack = null;
 
     /** initialize your data structure here. */
     public MinStack() {
