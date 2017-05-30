@@ -8,7 +8,7 @@ import java.util.List;
  * Problem Number : 89
  * Problem Name : Gray Code
  * Description : https://leetcode.com/problems/gray-code/#/description
- * Difficulty : Mediums
+ * Difficulty : Medium
  * Tags : Backtracking
  */
 public class GrayCode {
