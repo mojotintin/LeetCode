@@ -22,7 +22,7 @@ public class BinaryTreeZigzagLevelOrderTraversal {
      * Note : BFS
      */
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        
+
         List<List<Integer>> order = new ArrayList<>();
         if (root == null) return order;
         List<Integer> level = new ArrayList<>();
