@@ -45,7 +45,7 @@ public class FindPeakElement {
         	else if (nums[mid] >nums[mid - 1]) min = mid + 1;
         	else max = mid - 1;
         }
-        
+
         if (max == min) return min;
         if (nums[min] > nums[min + 1]) return min;
         if (nums[max] > nums[max - 1]) return max;
