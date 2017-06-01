@@ -26,19 +26,19 @@ public class FlattenBinaryTreeToLinkedList {
 
     private TreeNode constructTree(TreeNode root) {
 
-    	if (root.left == null  && root.right == null) return root;
+        if (root.left == null  && root.right == null) return root;
         else if (root.left == null) return constructTree(root.right);
         else if (root.right == null) {
-        	root.right = root.left;
-        	root.left = null;
-        	return constructTree(root.right);
+            root.right = root.left;
+            root.left = null;
+            return constructTree(root.right);
         } else {
-        	TreeNode temp = root.right;
-        	root.right = root.left;
-        	root.left = null;
-        	TreeNode node = constructTree(root.right);
-        	node.right = temp;
-        	return constructTree(temp);
+            TreeNode temp = root.right;
+            root.right = root.left;
+            root.left = null;
+            TreeNode node = constructTree(root.right);
+            node.right = temp;
+            return constructTree(temp);
         }
     }
 }

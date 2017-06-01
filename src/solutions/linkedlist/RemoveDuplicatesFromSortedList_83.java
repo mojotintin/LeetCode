@@ -10,6 +10,7 @@ import entities.ListNode;
 public class RemoveDuplicatesFromSortedList_83 {
 
     public ListNode deleteDuplicates(ListNode head) {
+
         if (head == null) return null;
         ListNode node = head;
         while (head.next != null) {

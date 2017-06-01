@@ -2,7 +2,7 @@ package entities;
 
 /**
  * Created by calabash on 2017/3/27.
- *Leetcode TreeNode Class
+ * LeetCode TreeNode Class
  */
 public class TreeNode {
     public int val;

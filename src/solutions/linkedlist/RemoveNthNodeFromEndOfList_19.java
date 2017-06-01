@@ -16,6 +16,7 @@ public class RemoveNthNodeFromEndOfList_19 {
      * Note : Two points
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {
+
         ListNode newHead = new ListNode(0);
         newHead.next = head;
         ListNode nodeToEnd = newHead;

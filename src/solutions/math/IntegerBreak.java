@@ -23,11 +23,11 @@ public class IntegerBreak {
         int x = n / 3;
         int y = n % 3;
         if (y == 0) {
-        	return (int)Math.pow(3, x);
+            return (int)Math.pow(3, x);
         } else if (y == 1) {
-        	return (int)Math.pow(3, x - 1) * 4;
+            return (int)Math.pow(3, x - 1) * 4;
         } else{
-        	return (int)Math.pow(3, x) * 2;
+            return (int)Math.pow(3, x) * 2;
         }
     }
 

@@ -27,7 +27,7 @@ public class RepeatedSubstringPattern_459 {
         return false;
     }
 
-    public boolean isPrimeNumber(int n) {
+    private boolean isPrimeNumber(int n) {
         if (n == 2) return true;
         else if (n % 2 == 0) return false;
         for (int i = 3; i < (int)Math.sqrt(n); i += 2){

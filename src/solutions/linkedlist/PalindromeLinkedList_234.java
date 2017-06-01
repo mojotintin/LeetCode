@@ -10,6 +10,7 @@ import entities.ListNode;
 public class PalindromeLinkedList_234 {
 
     public boolean isPalindrome(ListNode head) {
+
         int count = 0;
         ListNode node = head;
         ListNode halfHead = head;

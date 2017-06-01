@@ -22,6 +22,7 @@ public class FindLargestValueInEachTreeRow {
      * Runtime : 14ms
      */
     public List<Integer> largestValues(TreeNode root) {
+
         if (root == null) return new LinkedList<>();
         List<Integer> list = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();

@@ -16,8 +16,8 @@ public class LongestCommonPrefix_14 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) return "";
         int prefixLen = 0, prefixMaxLen = Integer.MAX_VALUE;
-        for (int i = 0; i < strs.length; i++) {
-            prefixMaxLen = Math.min(prefixLen, strs[i].length());
+        for (String str : strs) {
+            prefixMaxLen = Math.min(prefixLen, str.length());
         }
 
         for (int i = 0; i < prefixMaxLen; i++) {

@@ -12,6 +12,7 @@ public class AddTwoNumbers_2 {
 
     // too redundant
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         if (l1 == null && l2 == null) return null;
         ListNode sumList = new ListNode(0);
         ListNode reList = sumList;

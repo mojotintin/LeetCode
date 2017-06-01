@@ -25,23 +25,23 @@ public class SearchForARange {
 
         while (max - min > 1) {
 
-        	int mid = (max + min) / 2;
-        	if (nums[mid] == target) {
-        		pos = mid;
-        		break;
-        	} else if (nums[mid]  > target) {
-        		max = mid - 1;
-        	} else {
-        		min = mid + 1;
-        	}
+            int mid = (max + min) / 2;
+            if (nums[mid] == target) {
+                pos = mid;
+                break;
+            } else if (nums[mid]  > target) {
+                max = mid - 1;
+            } else {
+                min = mid + 1;
+            }
         }
 
         if (pos == -1) {
-        	if (nums[min] == target) {
-        		pos = min;
-        	} else if (nums[max] == target) {
-        		pos = max;
-        	}
+            if (nums[min] == target) {
+                pos = min;
+            } else if (nums[max] == target) {
+                pos = max;
+            }
         }
 
         if (pos == -1) return range;
@@ -49,10 +49,10 @@ public class SearchForARange {
         int start = pos, end = pos;
 
         while(start >= 0 && nums[start] == target) {
-        	start --;
+            start --;
         }
         while(end <= nums.length - 1 && nums[end] == target) {
-        	end ++;
+            end ++;
         }
 
         range[0] = start + 1;

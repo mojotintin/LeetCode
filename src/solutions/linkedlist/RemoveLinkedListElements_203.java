@@ -10,6 +10,7 @@ import entities.ListNode;
 public class RemoveLinkedListElements_203 {
 
      public ListNode removeElements(ListNode head, int val) {
+
         if (head == null) return  null;
         ListNode newHead = head;
         while(head.next != null){

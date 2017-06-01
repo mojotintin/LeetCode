@@ -30,18 +30,19 @@ public class LinkedListCycle_141 {
      * Extra space : 0(1)
      */
     public boolean hasCycle_2(ListNode head) {
+
         if (head == null) {
-        	return false;
+            return false;
         }
 
         ListNode node = head;
         while (head.next != null && node.next != null && node.next.next != null) {
-        	if (head.next == node.next.next) {
-        		return true;
-        	}
+            if (head.next == node.next.next) {
+                return true;
+            }
 
-        	head = head.next;
-        	node = node.next.next;
+            head = head.next;
+            node = node.next.next;
         }
 
         return false;

@@ -17,8 +17,8 @@ public class SearchA2DMatrix {
      */
     public boolean searchMatrix(int[][] matrix, int target) {
 
-    	if (matrix.length == 0) return false;
-    	if (matrix[0].length == 0) return false;
+        if (matrix.length == 0) return false;
+        if (matrix[0].length == 0) return false;
         int width = matrix[0].length;
         int height = matrix.length;
 
@@ -29,15 +29,15 @@ public class SearchA2DMatrix {
         int y = mid % width;
 
         while (max - min > 1) {
-        	if (matrix[x][y] < target) {
-        		min = mid;
-        	} else if (matrix[x][y] > target) {
-        		max = mid;
-        	} else return true;
+            if (matrix[x][y] < target) {
+                min = mid;
+            } else if (matrix[x][y] > target) {
+                max = mid;
+            } else return true;
 
-        	mid = (min + max) / 2;
-        	x = mid / width;
-        	y = mid % width;
+            mid = (min + max) / 2;
+            x = mid / width;
+            y = mid % width;
         }
 
         return target == matrix[min / width][min % width] || target == matrix[max / width][max % width];

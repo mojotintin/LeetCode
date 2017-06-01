@@ -36,14 +36,14 @@ public class FindPeakElement {
      */
     public int findPeakElement_2(int[] nums) {
 
-    	if (nums.length == 1) return 0;
+        if (nums.length == 1) return 0;
         int min = 0, max = nums.length - 1;
 
         while (max - min > 1) {
-        	int mid = (min + max) / 2;
-        	if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) return mid;
-        	else if (nums[mid] >nums[mid - 1]) min = mid + 1;
-        	else max = mid - 1;
+            int mid = (min + max) / 2;
+            if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) return mid;
+            else if (nums[mid] >nums[mid - 1]) min = mid + 1;
+            else max = mid - 1;
         }
 
         if (max == min) return min;

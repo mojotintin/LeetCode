@@ -50,31 +50,31 @@ public class BinaryTreePostorderTraversal {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         if (root == null) {
-        	return list;
+            return list;
         }
         stack.push(root);
 
         TreeNode lastVisit = root;
         while (!stack.empty()) {
-        	TreeNode node = stack.peek();
-        	if (node.left == null && node.right == null) {
-        		lastVisit = stack.pop();
-        		list.add(lastVisit.val);
-        	} else if (lastVisit == node.right) {
-        		lastVisit = stack.pop();
-        		list.add(lastVisit.val);
-        	} else if (lastVisit == node.left) {
-        		if (node.right == null) {
-        			lastVisit = stack.pop();
-        			list.add(lastVisit.val);
-        		} else{
-        			stack.push(node.right);
-        		}
-        	} else if (node.left != null) {
-        		stack.push(node.left);
-        	} else {
-        		stack.push(node.right);
-        	}
+            TreeNode node = stack.peek();
+            if (node.left == null && node.right == null) {
+                lastVisit = stack.pop();
+                list.add(lastVisit.val);
+            } else if (lastVisit == node.right) {
+                lastVisit = stack.pop();
+                list.add(lastVisit.val);
+            } else if (lastVisit == node.left) {
+                if (node.right == null) {
+                    lastVisit = stack.pop();
+                    list.add(lastVisit.val);
+                } else{
+                    stack.push(node.right);
+                }
+            } else if (node.left != null) {
+                stack.push(node.left);
+            } else {
+                stack.push(node.right);
+            }
 
         }
         return list;

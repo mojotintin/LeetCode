@@ -22,9 +22,9 @@ public class GrayCode {
         List<Integer> codes = new ArrayList<>();
         codes.add(0);
         for (int i = 0; i < n; i ++) {
-        	for (int j = (int)Math.pow(2, i) - 1; j >= 0; j --) {
-        		codes.add((int)Math.pow(2, i) + codes.get(j));
-        	}
+            for (int j = (int)Math.pow(2, i) - 1; j >= 0; j --) {
+                codes.add((int)Math.pow(2, i) + codes.get(j));
+            }
         }
         return codes;
     }
@@ -39,16 +39,16 @@ public class GrayCode {
         List<Integer> codes = new ArrayList<>();
         codes.add(0);
         if (n == 0) {
-        	return codes;
+            return codes;
         }
         codes.add(1);
         if (n == 1) {
-        	return codes;
+            return codes;
         }
         for (int i = 1; i < n; i++) {
-        	for (int j = (2 << (i - 1)) - 1; j >= 0; j--) {
-        		codes.add((2 << (i - 1)) + codes.get(j));
-        	}
+            for (int j = (2 << (i - 1)) - 1; j >= 0; j--) {
+                codes.add((2 << (i - 1)) + codes.get(j));
+            }
         }
         return codes;
     }
@@ -62,11 +62,11 @@ public class GrayCode {
         List<Integer> codes = new ArrayList<>();
         codes.add(0);
         if (n == 0) {
-        	return codes;
+            return codes;
         }
         codes.add(1);
         if (n == 1) {
-        	return codes;
+            return codes;
         }
 
         int[] cs = new int[2 << (n - 1)];
@@ -75,13 +75,13 @@ public class GrayCode {
         int count = 2;
 
         for (int i = 1; i < n; i++) {
-        	for (int j = (2 << (i - 1)) - 1; j >= 0; j--) {
-        		cs[count++] = (2 << (i - 1)) + cs[j];
-        	}
+            for (int j = (2 << (i - 1)) - 1; j >= 0; j--) {
+                cs[count++] = (2 << (i - 1)) + cs[j];
+            }
         }
         codes = new ArrayList<>();
         for (int i : cs) {
-        	codes.add(i);
+            codes.add(i);
         }
         return codes;
     }

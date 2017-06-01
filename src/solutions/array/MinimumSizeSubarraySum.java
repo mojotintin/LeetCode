@@ -21,14 +21,14 @@ public class MinimumSizeSubarraySum {
         int start = 0;
 
         for (int i = 0; i < nums.length; i++) {
-        	if (nums[i] >= s) return 1;
-        	sum += nums[i];
-        	if (sum >= s) {
-        		while (sum >= s) {
-        			sum -= nums[start++];
-        		}
-        		minLen = Math.min(minLen, i - start + 2);
-        	}
+            if (nums[i] >= s) return 1;
+            sum += nums[i];
+            if (sum >= s) {
+                while (sum >= s) {
+                    sum -= nums[start++];
+                }
+                minLen = Math.min(minLen, i - start + 2);
+            }
         }
 
         if (minLen == nums.length + 1) return 0;

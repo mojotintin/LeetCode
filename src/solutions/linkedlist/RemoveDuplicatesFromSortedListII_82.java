@@ -11,19 +11,20 @@ import entities.ListNode;
 public class RemoveDuplicatesFromSortedListII_82 {
 
     public ListNode deleteDuplicates(ListNode head) {
+
         ListNode link = new ListNode(0);
         ListNode newHead = link;
         link.next = head;
         while (link.next != null && link.next.next != null) {
-        	ListNode node = link.next;
-        	if (node.val != node.next.val) {
-        		link = node;
-        	} else{
-        		while (node.next != null && node.val == node.next.val) {
-        			node = node.next;
-        		}
-        		link.next = node.next;
-        	}
+            ListNode node = link.next;
+            if (node.val != node.next.val) {
+                link = node;
+            } else{
+                while (node.next != null && node.val == node.next.val) {
+                    node = node.next;
+                }
+                link.next = node.next;
+            }
         }
 
         return newHead.next;

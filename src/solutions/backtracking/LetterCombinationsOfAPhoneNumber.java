@@ -21,27 +21,27 @@ public class LetterCombinationsOfAPhoneNumber {
      */
     public List<String> letterCombinations(String digits) {
 
-        if (digits.length() == 0) {
-    		return new ArrayList<>();
-    	}
+        if (digits.length() == 0){
+            return new ArrayList<>();
+        }
 
-    	String[] cha = new String[]{"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        String[] cha = new String[]{"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
         List<String> letters = new ArrayList<>();
         letters.add("");
 
         for (int i = 0; i < digits.length(); i ++) {
-        	List<String> list = new ArrayList<>();
-        	String digit = cha[Character.getNumericValue(digits.charAt(i)) - 1];
-        	if (Objects.equals(digit, "")) {
-        		return new ArrayList<>();
-        	}
-        	for (String s : letters) {
-        		for (int j = 0; j < digit.length(); j ++) {
-        			list.add(s + digit.charAt(j));
-        		}
-        	}
-        	letters = list;
+            List<String> list = new ArrayList<>();
+            String digit = cha[Character.getNumericValue(digits.charAt(i)) - 1];
+            if (Objects.equals(digit, "")) {
+                return new ArrayList<>();
+            }
+            for (String s : letters) {
+                for (int j = 0; j < digit.length(); j ++) {
+                    list.add(s + digit.charAt(j));
+                }
+            }
+            letters = list;
         }
         return letters;
     }

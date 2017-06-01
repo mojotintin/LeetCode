@@ -10,6 +10,7 @@ import entities.ListNode;
 public class OddEvenLinkedList_328 {
 
     public ListNode oddEvenList(ListNode head) {
+
         boolean isOdd = false;
         ListNode rs = head;
         ListNode odd = head;

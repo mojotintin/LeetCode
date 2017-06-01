@@ -24,14 +24,14 @@ public class SumRootToLeafNumbers {
     private int sumOfRootToLeaf(TreeNode root, int sum) {
 
         if(root ==null) return sum;
-    	if (root.left == null && root.right == null) {
-    	    return sum * 10 + root.val;
-    	} else if (root.left == null) {
-    		return sumOfRootToLeaf(root.right, sum * 10 + root.val);
-    	} else if (root.right == null) {
-    		return sumOfRootToLeaf(root.left, sum * 10 + root.val);
-    	} else {
-    		return sumOfRootToLeaf(root.left, sum * 10 + root.val) + sumOfRootToLeaf(root.right, sum * 10 + root.val);
-    	}
+        if (root.left == null && root.right == null) {
+            return sum * 10 + root.val;
+        } else if (root.left == null) {
+            return sumOfRootToLeaf(root.right, sum * 10 + root.val);
+        } else if (root.right == null) {
+            return sumOfRootToLeaf(root.left, sum * 10 + root.val);
+        } else {
+            return sumOfRootToLeaf(root.left, sum * 10 + root.val) + sumOfRootToLeaf(root.right, sum * 10 + root.val);
+        }
     }
 }
