@@ -2,12 +2,13 @@ package solutions.string;
 
 /**
  * Created by calabash on 2017/4/5.
- * LeetCode 459th :  Repeated Substring Pattern
+ * Problem Number : 459
+ * Problem Name : Repeated Substring Pattern
  * Description : https://leetcode.com/problems/repeated-substring-pattern/#/description
  * Difficulty : Easy
  * Tags : String
  */
-public class RepeatedSubstringPattern_459 {
+public class RepeatedSubstringPattern {
 
     /**
      * Submission : 1
@@ -28,6 +29,7 @@ public class RepeatedSubstringPattern_459 {
     }
 
     private boolean isPrimeNumber(int n) {
+
         if (n == 2) return true;
         else if (n % 2 == 0) return false;
         for (int i = 3; i < (int)Math.sqrt(n); i += 2){

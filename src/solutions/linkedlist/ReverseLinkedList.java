@@ -4,12 +4,18 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/5.
- * The LeetCode 206th
+ * Problem Number : 206
+ * Problem Name :
  * Tags : Linked List
  */
-public class ReverseLinkedList_206 {
+public class ReverseLinkedList {
 
-    // Change the node value
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     * Note : The Node Value Changed
+     */
     public ListNode reverseList_1(ListNode head) {
 
         int[] var = new int[10000];
@@ -29,7 +35,12 @@ public class ReverseLinkedList_206 {
         return re;
     }
 
-    // Do not change the node value
+    /**
+     * Submission : 2
+     * Status : Accepted
+     * Runtime : 0ms
+     * Note : The Node Value does't Changed
+     */
     public ListNode reverseList_2(ListNode head) {
 
         if (head == null || head.next == null) return head;

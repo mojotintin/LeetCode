@@ -5,12 +5,19 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/2.
- * LeetCode 2th
+ * Problem Number : 2
+ * Problem Name : Add Two Numbers
+ * Description : https://leetcode.com/problems/add-two-numbers/#/description
+ * Difficulty ; Medium
  * Tags : Linked List, Math
  */
-public class AddTwoNumbers_2 {
+public class AddTwoNumbers {
 
-    // too redundant
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 66ms
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         if (l1 == null && l2 == null) return null;

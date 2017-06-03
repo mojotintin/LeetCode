@@ -2,18 +2,21 @@ package solutions.string;
 
 /**
  * Created by Calabash on 2017/5/2.
- * LeetCode 38th : Count and Say
+ * problem Number : 38
+ * Problem Name : Count and Say
  * Description : https://leetcode.com/problems/count-and-say/#/description
  * Difficulty : Easy
  * Tags : String
  */
-public class CountAndSay_38 {
+public class CountAndSay {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 7ms
      */
     public String countAndSay(int n) {
+
         StringBuilder re = new StringBuilder();
         String se = "1";
 

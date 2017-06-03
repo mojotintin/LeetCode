@@ -2,12 +2,13 @@ package solutions.string;
 
 /**
  * Created by Calabash on 2017/4/15.
- * LeetCode 58th : Length of Last Word
+ * Problem Number : 58
+ * Problem Name : Length of Last Word
  * Description : https://leetcode.com/problems/length-of-last-word/#/description
  * Difficulty : Easy
  * Tags : String
  */
-public class LengthOfLastWord_58 {
+public class LengthOfLastWord {
 
     /**
      * Submission : 1

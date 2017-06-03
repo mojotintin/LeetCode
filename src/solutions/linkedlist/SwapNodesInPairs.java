@@ -4,16 +4,15 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/7.
- * The LeetCode 24th
+ * Problem Number : 24
+ * Problem Name : Swap Nodes in Pairs
  * Tags : Linked List
  */
-public class SwapNodesInPairs_24 {
+public class SwapNodesInPairs {
 
     public ListNode swapPairs(ListNode head) {
 
-        if (head == null || head.next == null) {
-            return head;
-        }
+        if (head == null || head.next == null) return head;
         ListNode newHead = head;
         head = head.next;
         while(head.next != null && head.next.next != null){

@@ -4,13 +4,16 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/18.
- * LeetCode 19th : Remove Nth Node From End of List
+ * Problem NUmber : 19
+ * Problem Name : Remove Nth Node From End of List
+ * Description : https://leetcode.com/problems/remove-nth-node-from-end-of-list/#/description
  * Difficulty : Medium
  * Tags : Linked List, Two Points
  */
-public class RemoveNthNodeFromEndOfList_19 {
+public class RemoveNthNodeFromEndOfList {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 15ms
      * Note : Two points

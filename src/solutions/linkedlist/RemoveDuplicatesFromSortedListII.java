@@ -4,12 +4,19 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/13.
- * The LeetCode 82th
+ * Problem Number : 82
+ * Problem Name : Remove Duplicates from Sorted List II
  * Description : https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/#/description
+ * Difficulty : Medium
  * Tags : Linked List
  */
-public class RemoveDuplicatesFromSortedListII_82 {
+public class RemoveDuplicatesFromSortedListII {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     */
     public ListNode deleteDuplicates(ListNode head) {
 
         ListNode link = new ListNode(0);

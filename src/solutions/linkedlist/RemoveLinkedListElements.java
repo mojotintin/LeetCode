@@ -4,11 +4,19 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/7.
- * The LeetCode 203th
+ * Problem Number : 203
+ * Problem Name : Remove Linked List Elements
+ * Description : https://leetcode.com/problems/remove-linked-list-elements/#/description
+ * Difficulty : Easy
  * Tags : Linked List
  */
-public class RemoveLinkedListElements_203 {
+public class RemoveLinkedListElements {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     */
      public ListNode removeElements(ListNode head, int val) {
 
         if (head == null) return  null;

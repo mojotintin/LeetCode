@@ -4,14 +4,16 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/19.
- * LeetCode 147th : Insertion Sort List
+ * Problem Number : 147
+ * Problem Name : Insertion Sort List
  * Description : https://leetcode.com/problems/insertion-sort-list/#/description
  * Difficulty : Medium
  * Tags : Linked List, Sort
  */
-public class InsertionSortList_147 {
+public class InsertionSortList {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 37ms
      */

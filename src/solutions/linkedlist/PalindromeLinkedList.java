@@ -4,11 +4,19 @@ import entities.ListNode;
 
 /**
  * Created by Calabash on 2017/5/7.
- * LeetCode 324th
+ * Problem Number : 324
+ * Problem Name : Odd Even Linked List
+ * Description : https://leetcode.com/problems/odd-even-linked-list/#/description
+ * Difficulty : Medium
  * Tags : Linked List, Two Points
  */
-public class PalindromeLinkedList_234 {
+public class PalindromeLinkedList {
 
+    /**
+     * Submission : 1
+     * Status : Accepted
+     * Runtime : 1ms
+     */
     public boolean isPalindrome(ListNode head) {
 
         int count = 0;

@@ -2,10 +2,12 @@ package solutions.string;
 
 /**
  * Created by Calabash on 2017/4/20.
- * The LeetCode 283th
+ * Problem Number : 383
+ * Problem Name : Ransom Note
+ * Difficulty : Easy
  * Tags : String
  */
-public class RansomNote_283 {
+public class RansomNote {
 
     public boolean canConstruct(String ransomNote, String magazine) {
 
@@ -15,9 +17,7 @@ public class RansomNote_283 {
         for (int i = 0; i < ransomNote.length(); i++){ c1[ransomNote.charAt(i) - 'a'] ++; }
         for (int i = 0; i < magazine.length(); i++){ c2[magazine.charAt(i) - 'a'] ++; }
 
-        for (int i = 0; i < 26; i++){
-            if (c1[i] > c2[i]) return false;
-        }
+        for (int i = 0; i < 26; i++) if (c1[i] > c2[i]) return false;
         return true;
     }
 }

@@ -2,12 +2,16 @@ package solutions.string;
 
 /**
  * Created by calabash on 2017/4/9.
- * The leetCode 557th
+ * Problem Number : 557
+ * Problem Name : Reverse Words in a String III
+ * Description : https://leetcode.com/problems/reverse-words-in-a-string-iii/#/description
+ * Difficulty : Easy
  * Tags : String
  */
-public class ReverseWordsInAStringIII_557 {
+public class ReverseWordsInAStringIII {
 
     /**
+     * Submission : 1
      * Time Limit Exceeded
      */
     public String reverseWords_1(String s) {
@@ -28,12 +32,13 @@ public class ReverseWordsInAStringIII_557 {
     }
 
     /**
+     * Submission : 2
      * Status : Accepted
+     * Runtime : 203ms
      */
     public String reverseWords_2(String s) {
 
         String reString = "", word = "";
-        int start = 0;
         for (int i = 0; i < s.length(); i++){
             if (s.charAt(i) != ' ') { word = s.charAt(i) + word; }
             else {
@@ -42,5 +47,24 @@ public class ReverseWordsInAStringIII_557 {
             }
         }
         return reString + word;
+    }
+
+    /**
+     * Submission : 3
+     * Status : Accepted
+     * Runtime : 52ms
+     */
+    public String reverseWords_3(String s) {
+
+        StringBuilder reString = new StringBuilder();
+        StringBuilder word = new StringBuilder();
+        for (int i = 0; i < s.length(); i++){
+            if (s.charAt(i) != ' ') word.insert(0, s.charAt(i));
+            else {
+                reString.append(word).append(" ");
+                word = new StringBuilder();
+            }
+        }
+        return reString.toString() + word.toString();
     }
 }

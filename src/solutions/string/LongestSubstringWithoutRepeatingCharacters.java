@@ -2,14 +2,16 @@ package solutions.string;
 
 /**
  * Created by Calabash on 2017/5/8.
- * LeetCode 3th : Longest Substring Without Repeating Characters
+ * Problem Number : 3
+ * Problem Name : Longest Substring Without Repeating Characters
  * Description : https://leetcode.com/problems/longest-substring-without-repeating-characters/#/description
  * Difficulty : Medium
  * Tags : Hash Table, Two Points, String
  */
-public class LongestSubstringWithoutRepeatingCharacters_3 {
+public class LongestSubstringWithoutRepeatingCharacters {
 
     /**
+     * Submission : 1
      * Status : Accepted
      * Runtime : 55ms
      */
