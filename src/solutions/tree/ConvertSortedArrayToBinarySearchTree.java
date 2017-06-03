@@ -24,6 +24,7 @@ public class ConvertSortedArrayToBinarySearchTree {
 
         return root;
     }
+
     private void generateBST(int[] nums, TreeNode root, int min, int max){
         if(max == min) {
             root.val = nums[max];

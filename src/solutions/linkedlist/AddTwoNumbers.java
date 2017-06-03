@@ -2,7 +2,6 @@ package solutions.linkedlist;
 
 import entities.ListNode;
 
-
 /**
  * Created by Calabash on 2017/5/2.
  * Problem Number : 2

@@ -1,4 +1,4 @@
-package solutions.array;
+package solutions.dp;
 
 /**
  * Created by Calabash on 2017/6/3.
