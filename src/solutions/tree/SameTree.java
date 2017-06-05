@@ -17,7 +17,7 @@ public class SameTree {
    * Status : Accepted
    * Runtime : 0ms
    */
-  public boolean isSameTree(TreeNode p, TreeNode q) {
+  public boolean isSameTree_1(TreeNode p, TreeNode q) {
     if (p == null && q ==null){
       return true;
     } else if (p == null){
@@ -27,7 +27,23 @@ public class SameTree {
     } else if (p.val != q.val) {
       return false;
     }  else {
-      return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+      return isSameTree_1(p.left, q.left) && isSameTree_1(p.right, q.right);
     }
   }
+
+  /**
+   * Submission : 2
+   * Status : Accepted
+   * Runtime : 0ms
+   */
+
+  public boolean isSameTree_2(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
+        } else if (p != null && q != null && p.val == q.val) {
+            return isSameTree_2(p.left, q.left) && isSameTree_2(p.right, q.right);
+        } else {
+            return false;
+        }
+    }
 }
