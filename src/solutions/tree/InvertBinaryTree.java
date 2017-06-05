@@ -12,19 +12,18 @@ import entities.TreeNode;
  */
 public class InvertBinaryTree {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 0ms
-     */
-    public TreeNode invertTree(TreeNode root) {
-
-        if (root != null && (root.left != null || root.right != null)) {
-            TreeNode nodeLeft = invertTree(root.left);
-            TreeNode  nodeRight = invertTree(root.right);
-            root.left = nodeRight;
-            root.right = nodeLeft;
-        }
-        return root;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 0ms
+   */
+  public TreeNode invertTree(TreeNode root) {
+    if (root != null && (root.left != null || root.right != null)) {
+      TreeNode nodeLeft = invertTree(root.left);
+      TreeNode  nodeRight = invertTree(root.right);
+      root.left = nodeRight;
+      root.right = nodeLeft;
     }
+    return root;
+  }
 }

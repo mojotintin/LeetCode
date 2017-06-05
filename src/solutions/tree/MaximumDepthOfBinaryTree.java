@@ -12,14 +12,16 @@ import entities.TreeNode;
  */
 public class MaximumDepthOfBinaryTree {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     */
-    public int maxDepth(TreeNode root) {
-
-        if (root == null) return 0;
-        else return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   */
+  public int maxDepth(TreeNode root) {
+    if (root == null) {
+      return 0;
+    } else {
+      return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
+  }
 }

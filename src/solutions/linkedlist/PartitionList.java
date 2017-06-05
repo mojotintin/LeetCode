@@ -12,31 +12,29 @@ import entities.ListNode;
  */
 public class PartitionList {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     */
-    public ListNode partition(ListNode head, int x) {
-
-        ListNode walkNode = new ListNode(0);
-        ListNode newHead;
-        ListNode lessNode = new ListNode(0);
-        ListNode moreHead = walkNode;
-        walkNode.next = head;
-        newHead = lessNode;
-
-        while (walkNode.next != null) {
-            if (walkNode.next.val < x) {
-                ListNode temp = walkNode.next;
-                walkNode.next = walkNode.next.next;
-                lessNode.next = temp;
-                lessNode = lessNode.next;
-            } else {
-                walkNode= walkNode.next;
-            }
-        }
-        lessNode.next = moreHead.next;
-        return newHead.next;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   */
+  public ListNode partition(ListNode head, int x) {
+    ListNode walkNode = new ListNode(0);
+    ListNode newHead;
+    ListNode lessNode = new ListNode(0);
+    ListNode moreHead = walkNode;
+    walkNode.next = head;
+    newHead = lessNode;
+    while (walkNode.next != null) {
+      if (walkNode.next.val < x) {
+        ListNode temp = walkNode.next;
+        walkNode.next = walkNode.next.next;
+        lessNode.next = temp;
+        lessNode = lessNode.next;
+      } else {
+        walkNode= walkNode.next;
+      }
     }
+    lessNode.next = moreHead.next;
+    return newHead.next;
+  }
 }

@@ -13,21 +13,21 @@ import java.util.List;
  */
 public class FindAllDuplicatesInAnArray {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 17ms
-     */
-    public List<Integer> findDuplicates(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        for (int num : nums) {
-            num = Math.abs(num);
-            if (nums[num - 1] < 0) {
-                list.add(num);
-            } else {
-                nums[num - 1] = - nums[num - 1];
-            }
-        }
-        return list;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 17ms
+   */
+  public List<Integer> findDuplicates(int[] nums) {
+    List<Integer> list = new ArrayList<>();
+    for (int num : nums) {
+      num = Math.abs(num);
+      if (nums[num - 1] < 0) {
+        list.add(num);
+      } else {
+        nums[num - 1] = - nums[num - 1];
+      }
     }
+    return list;
+  }
 }

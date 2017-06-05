@@ -12,23 +12,28 @@ import entities.ListNode;
  */
 public class RemoveLinkedListElements {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     */
-     public ListNode removeElements(ListNode head, int val) {
-
-        if (head == null) return  null;
-        ListNode newHead = head;
-        while(head.next != null){
-            if(head.next.val == val){
-                head.next = head.next.next;
-            } else{
-                head = head.next;
-            }
-        }
-        if (newHead.val == val)return newHead.next;
-        else return newHead;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   */
+  public ListNode removeElements(ListNode head, int val) {
+    if (head == null) {
+      return  null;
     }
+    ListNode newHead = head;
+    while(head.next != null){
+      if(head.next.val == val){
+        head.next = head.next.next;
+      } else{
+        head = head.next;
+      }
+    }
+    if (newHead.val == val) {
+      return newHead.next;
+    }
+    else {
+      return newHead;
+    }
+  }
 }

@@ -10,31 +10,38 @@ package solutions.string;
  */
 public class RepeatedSubstringPattern {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 39ms
-     */
-    public boolean repeatedSubstringPattern(String s) {
-
-        for (int i = s.length() / 2; i >= 1 ; i--){
-            if (s.length() % i == 0 && isPrimeNumber(s.length() / i)) {
-                for (int j = i; j < s.length(); j++){
-                    if (s.charAt(j) != s.charAt(j % i)) break;
-                    else if (j == s.length() - 1) return true;
-                }
-            }
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 39ms
+   */
+  public boolean repeatedSubstringPattern(String s) {
+    for (int i = s.length() / 2; i >= 1 ; i--){
+      if (s.length() % i == 0 && isPrimeNumber(s.length() / i)) {
+        for (int j = i; j < s.length(); j++){
+          if (s.charAt(j) != s.charAt(j % i)) {
+            break;
+          }
+          else if (j == s.length() - 1) {
+            return true;
+          }
         }
+      }
+    }
+    return false;
+  }
+
+  private boolean isPrimeNumber(int n) {
+    if (n == 2) {
+      return true;
+    } else if (n % 2 == 0) {
+      return false;
+    }
+    for (int i = 3; i < (int)Math.sqrt(n); i += 2){
+      if (n % i == 0) {
         return false;
+      }
     }
-
-    private boolean isPrimeNumber(int n) {
-
-        if (n == 2) return true;
-        else if (n % 2 == 0) return false;
-        for (int i = 3; i < (int)Math.sqrt(n); i += 2){
-            if (n % i == 0) return false;
-        }
-        return true;
-    }
+    return true;
+  }
 }

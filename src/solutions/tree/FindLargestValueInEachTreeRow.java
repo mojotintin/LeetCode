@@ -16,37 +16,38 @@ import java.util.Queue;
  */
 public class FindLargestValueInEachTreeRow {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 14ms
-     */
-    public List<Integer> largestValues(TreeNode root) {
-
-        if (root == null) return new LinkedList<>();
-        List<Integer> list = new LinkedList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        list.add(root.val);
-        queue.add(root);
-        int max = Integer.MIN_VALUE;
-        Queue<TreeNode> q = new LinkedList<>();
-        while (!queue.isEmpty()) {
-            TreeNode node = queue.remove();
-            if (node.left != null) {
-                q.add(node.left);
-                max = Math.max(node.left.val, max);
-            }
-            if (node.right != null) {
-                q.add(node.right);
-                max = Math.max(node.right.val, max);
-            }
-            if (queue.isEmpty() && !q.isEmpty()) {
-                queue = q;
-                q = new LinkedList<>();
-                list.add(max);
-                max = Integer.MIN_VALUE;
-            }
-        }
-        return list;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 14ms
+   */
+  public List<Integer> largestValues(TreeNode root) {
+    if (root == null) {
+      return new LinkedList<>();
     }
+    List<Integer> list = new LinkedList<>();
+    Queue<TreeNode> queue = new LinkedList<>();
+    list.add(root.val);
+    queue.add(root);
+    int max = Integer.MIN_VALUE;
+    Queue<TreeNode> q = new LinkedList<>();
+    while (!queue.isEmpty()) {
+      TreeNode node = queue.remove();
+      if (node.left != null) {
+        q.add(node.left);
+        max = Math.max(node.left.val, max);
+      }
+      if (node.right != null) {
+        q.add(node.right);
+        max = Math.max(node.right.val, max);
+      }
+      if (queue.isEmpty() && !q.isEmpty()) {
+        queue = q;
+        q = new LinkedList<>();
+        list.add(max);
+        max = Integer.MIN_VALUE;
+      }
+    }
+    return list;
+  }
 }

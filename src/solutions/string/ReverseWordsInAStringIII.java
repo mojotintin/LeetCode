@@ -10,61 +10,65 @@ package solutions.string;
  */
 public class ReverseWordsInAStringIII {
 
-    /**
-     * Submission : 1
-     * Status : Time Limit Exceeded
-     */
-    public String reverseWords_1(String s) {
-
-        String reString = "";
-        int start = 0;
-        for (int i = 0; i < s.length(); i++){
-            if (s.charAt(i) == ' '){
-                for (int j = i - 1; j >= start; j--){reString += s.charAt(j);}
-                reString += " ";
-                start = i + 1;
-            }
+  /**
+   * Submission : 1
+   * Status : Time Limit Exceeded
+   */
+  public String reverseWords_1(String s) {
+    String reString = "";
+    int start = 0;
+    for (int i = 0; i < s.length(); i++){
+      if (s.charAt(i) == ' '){
+        for (int j = i - 1; j >= start; j--) {
+          reString += s.charAt(j);
         }
-
-        for (int j = s.length() - 1; j >= start; j--) {reString += s.charAt(j);}
-
-        return reString;
+        reString += " ";
+        start = i + 1;
+      }
     }
-
-    /**
-     * Submission : 2
-     * Status : Accepted
-     * Runtime : 203ms
-     */
-    public String reverseWords_2(String s) {
-
-        String reString = "", word = "";
-        for (int i = 0; i < s.length(); i++){
-            if (s.charAt(i) != ' ') { word = s.charAt(i) + word; }
-            else {
-                reString += word + " ";
-                word = "";
-            }
-        }
-        return reString + word;
+    for (int j = s.length() - 1; j >= start; j--) {
+      reString += s.charAt(j);
     }
+    return reString;
+  }
 
-    /**
-     * Submission : 3
-     * Status : Accepted
-     * Runtime : 52ms
-     */
-    public String reverseWords_3(String s) {
-
-        StringBuilder reString = new StringBuilder();
-        StringBuilder word = new StringBuilder();
-        for (int i = 0; i < s.length(); i++){
-            if (s.charAt(i) != ' ') word.insert(0, s.charAt(i));
-            else {
-                reString.append(word).append(" ");
-                word = new StringBuilder();
-            }
-        }
-        return reString.toString() + word.toString();
+  /**
+   * Submission : 2
+   * Status : Accepted
+   * Runtime : 203ms
+   */
+  public String reverseWords_2(String s) {
+    String reString = "";
+    String word = "";
+    for (int i = 0; i < s.length(); i++){
+      if (s.charAt(i) != ' ') {
+        word = s.charAt(i) + word;
+      }
+      else {
+        reString += word + " ";
+        word = "";
+      }
     }
+    return reString + word;
+  }
+
+  /**
+   * Submission : 3
+   * Status : Accepted
+   * Runtime : 52ms
+   */
+  public String reverseWords_3(String s) {
+    StringBuilder reString = new StringBuilder();
+    StringBuilder word = new StringBuilder();
+    for (int i = 0; i < s.length(); i++){
+      if (s.charAt(i) != ' ') {
+        word.insert(0, s.charAt(i));
+      }
+      else {
+        reString.append(word).append(" ");
+        word = new StringBuilder();
+      }
+    }
+    return reString.toString() + word.toString();
+  }
 }

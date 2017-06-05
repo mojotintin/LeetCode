@@ -14,37 +14,38 @@ import java.util.List;
  */
 public class PermutationsII {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 8ms
-     */
-    public List<List<Integer>> permuteUnique(int[] nums) {
-
-        List<List<Integer>> permutes = new ArrayList<>();
-        List<Integer> per = new ArrayList<>();
-        Arrays.sort(nums);
-        per.add(nums[0]);
-        permutes.add(per);
-
-        for (int i = 1; i < nums.length; i++) {
-            List<List<Integer>> newPermutes = new ArrayList<>();
-            for (List<Integer> permute : permutes) {
-                int start = findLast(permute, nums[i]);
-                for (int j = start + 1; j <= permute.size(); j++) {
-                    List<Integer> newPermute = new ArrayList<>(permute);
-                    newPermute.add(j, nums[i]);
-                    newPermutes.add(newPermute);
-                }
-            }
-            permutes = newPermutes;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 8ms
+   */
+  public List<List<Integer>> permuteUnique(int[] nums) {
+    List<List<Integer>> permutes = new ArrayList<>();
+    List<Integer> per = new ArrayList<>();
+    Arrays.sort(nums);
+    per.add(nums[0]);
+    permutes.add(per);
+    for (int i = 1; i < nums.length; i++) {
+      List<List<Integer>> newPermutes = new ArrayList<>();
+      for (List<Integer> permute : permutes) {
+        int start = findLast(permute, nums[i]);
+        for (int j = start + 1; j <= permute.size(); j++) {
+          List<Integer> newPermute = new ArrayList<>(permute);
+          newPermute.add(j, nums[i]);
+          newPermutes.add(newPermute);
         }
-        return permutes;
+      }
+      permutes = newPermutes;
     }
+    return permutes;
+  }
 
-    private int findLast(List<Integer> permute, int target) {
-
-        for (int i = permute.size() - 1; i >= 0; i--) if (permute.get(i) == target) return i;
-        return -1;
+  private int findLast(List<Integer> permute, int target) {
+    for (int i = permute.size() - 1; i >= 0; i--) {
+      if (permute.get(i) == target) {
+        return i;
+      }
     }
+    return -1;
+  }
 }

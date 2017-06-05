@@ -12,28 +12,26 @@ import entities.ListNode;
  */
 public class RemoveDuplicatesFromSortedListII {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     */
-    public ListNode deleteDuplicates(ListNode head) {
-
-        ListNode link = new ListNode(0);
-        ListNode newHead = link;
-        link.next = head;
-        while (link.next != null && link.next.next != null) {
-            ListNode node = link.next;
-            if (node.val != node.next.val) {
-                link = node;
-            } else{
-                while (node.next != null && node.val == node.next.val) {
-                    node = node.next;
-                }
-                link.next = node.next;
-            }
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   */
+  public ListNode deleteDuplicates(ListNode head) {
+    ListNode link = new ListNode(0);
+    ListNode newHead = link;
+    link.next = head;
+    while (link.next != null && link.next.next != null) {
+      ListNode node = link.next;
+      if (node.val != node.next.val) {
+        link = node;
+      } else {
+        while (node.next != null && node.val == node.next.val) {
+          node = node.next;
         }
-
-        return newHead.next;
+        link.next = node.next;
+      }
     }
+    return newHead.next;
+  }
 }

@@ -12,27 +12,26 @@ import entities.ListNode;
  */
 public class RemoveNthNodeFromEndOfList {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 15ms
-     * Note : Two points
-     */
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-
-        ListNode newHead = new ListNode(0);
-        newHead.next = head;
-        ListNode nodeToEnd = newHead;
-        ListNode nodeToDelete = newHead;
-        int gap = 0;
-        while (nodeToEnd.next != null) {
-            nodeToEnd = nodeToEnd.next;
-            if (gap >= n) {
-                nodeToDelete = nodeToDelete.next;
-            }
-            gap++;
-        }
-        nodeToDelete.next = nodeToDelete.next.next;
-        return newHead.next;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 15ms
+   * Note : Two points
+   */
+  public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode newHead = new ListNode(0);
+    newHead.next = head;
+    ListNode nodeToEnd = newHead;
+    ListNode nodeToDelete = newHead;
+    int gap = 0;
+    while (nodeToEnd.next != null) {
+      nodeToEnd = nodeToEnd.next;
+      if (gap >= n) {
+        nodeToDelete = nodeToDelete.next;
+      }
+      gap++;
     }
+    nodeToDelete.next = nodeToDelete.next.next;
+    return newHead.next;
+  }
 }

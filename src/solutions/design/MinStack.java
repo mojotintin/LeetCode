@@ -12,38 +12,35 @@ import java.util.Vector;
  */
 public class MinStack {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 118ms
-     */
-    private int min = Integer.MAX_VALUE;
-    private Vector<Integer> stack = null;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 118ms
+   */
+  private int min = Integer.MAX_VALUE;
+  private Vector<Integer> stack = null;
 
-    /** initialize your data structure here. */
-    public MinStack() {
-        stack = new Vector<>();
+  /** initialize your data structure here. */
+  public MinStack() {
+    stack = new Vector<>();
+  }
+
+  public void push(int x) {
+    stack.add(x);
+  }
+
+  public void pop() {
+    stack.remove(stack.size() - 1);
+  }
+
+  public int top() {
+    return stack.get(stack.size() - 1);
+  }
+
+  public int getMin() {
+    for (Integer aStack : stack) {
+      min = Math.min(min, aStack);
     }
-
-    public void push(int x) {
-
-        stack.add(x);
-    }
-
-    public void pop() {
-
-        stack.remove(stack.size() - 1);
-    }
-
-    public int top() {
-
-        return stack.get(stack.size() - 1);
-    }
-
-    public int getMin() {
-        for (int i = 0; i < stack.size(); i++){
-            min = Math.min(min, stack.get(i));
-        }
-        return min;
-    }
+    return min;
+  }
 }

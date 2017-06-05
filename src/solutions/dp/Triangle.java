@@ -12,20 +12,18 @@ import java.util.List;
  */
 public class Triangle {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 7ms
-     */
-    public int minimumTotal(List<List<Integer>> triangle) {
-
-        int[] miniPath = new int[triangle.size() + 1];
-        for (int i = triangle.size(); i > 0; i--) {
-            for (int j = 0; j < i; j ++) {
-                miniPath[j] = Math.min(miniPath[j], miniPath[j + 1]) + triangle.get(i - 1).get(j);
-            }
-        }
-
-        return miniPath[0];
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 7ms
+   */
+  public int minimumTotal(List<List<Integer>> triangle) {
+    int[] miniPath = new int[triangle.size() + 1];
+    for (int i = triangle.size(); i > 0; i--) {
+      for (int j = 0; j < i; j ++) {
+        miniPath[j] = Math.min(miniPath[j], miniPath[j + 1]) + triangle.get(i - 1).get(j);
+      }
     }
+    return miniPath[0];
+  }
 }

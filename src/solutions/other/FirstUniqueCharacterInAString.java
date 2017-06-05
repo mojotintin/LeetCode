@@ -10,19 +10,21 @@ package solutions.other;
  */
 public class FirstUniqueCharacterInAString {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 38ms
-     */
-    public int firstUniqChar(String s) {
-
-        int[] cha = new int[26];
-        for (int i = 0; i < s.length(); i++)
-            cha[s.charAt(i) - 'a']++;
-        for (int i = 0; i < s.length(); i++)
-            if (cha[s.charAt(i) - 'a'] == 1)
-                return i;
-        return 0;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 38ms
+   */
+  public int firstUniqChar(String s) {
+    int[] cha = new int[26];
+    for (int i = 0; i < s.length(); i++) {
+      cha[s.charAt(i) - 'a']++;
     }
+    for (int i = 0; i < s.length(); i++) {
+      if (cha[s.charAt(i) - 'a'] == 1) {
+        return i;
+      }
+    }
+    return 0;
+  }
 }

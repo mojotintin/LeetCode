@@ -10,16 +10,17 @@ package solutions.bitmanipulation;
  */
 public class SingleNumber {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     * Note : Bit Manipulation
-     */
-    public int singleNumber(int[] nums) {
-
-        int i = 0;
-        for (int num : nums) i ^= num;
-        return i;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   * Note : Bit Manipulation
+   */
+  public int singleNumber(int[] nums) {
+    int i = 0;
+    for (int num : nums) {
+      i ^= num;
     }
+    return i;
+  }
 }

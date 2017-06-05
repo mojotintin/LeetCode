@@ -10,33 +10,34 @@ package solutions.bitmanipulation;
  */
 public class NumberComplement {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 13ms
-     */
-    public int findComplement_1(int num) {
-        int re = 0, count = 0;
-        while(num / 2 > 0){
-            if (num % 2 == 0){
-                re += Math.pow(2, count);
-            }
-            count++;
-            num = num / 2;
-        }
-        return re;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 13ms
+   */
+  public int findComplement_1(int num) {
+    int re = 0;
+    int count = 0;
+    while(num / 2 > 0){
+      if (num % 2 == 0){
+        re += Math.pow(2, count);
+      }
+      count++;
+      num = num / 2;
     }
+    return re;
+  }
 
-    /**
-     * Submission : 2
-     * Status : Time Limit Exceeded
-     * Runtime : N/A
-     */
-    public int findComplement_2(int num) {
-        int i = 1;
-        while(i <= num){
-            i = i << 1;
-        }
-        return (i - 1) ^ num;
+  /**
+   * Submission : 2
+   * Status : Time Limit Exceeded
+   * Runtime : N/A
+   */
+  public int findComplement_2(int num) {
+    int i = 1;
+    while(i <= num){
+      i = i << 1;
     }
+    return (i - 1) ^ num;
+  }
 }

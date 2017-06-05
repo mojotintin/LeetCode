@@ -21,7 +21,6 @@ public class MinimumAbsoluteDifferenceInBST {
    * Runtime : 18ms
    */
   public int getMinimumDifference(TreeNode root) {
-
     int minDiff = Integer.MAX_VALUE;
     List<Integer> list = new ArrayList<>();
     order(root, list);
@@ -32,7 +31,6 @@ public class MinimumAbsoluteDifferenceInBST {
   }
 
   private void order(TreeNode root, List<Integer> list) {
-
     if (root.left != null) {
       order(root.left, list);
     }

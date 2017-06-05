@@ -18,9 +18,9 @@ public class LinkedListCycleII {
    * Runtime : 1ms
    */
   public ListNode detectCycle(ListNode head) {
-
-    if (head == null || head.next == null || head.next.next == null) {return null;}
-
+    if (head == null || head.next == null || head.next.next == null) {
+      return null;
+    }
     ListNode h1 = head.next;
     ListNode h2 = head.next.next;
     while (h1 != h2) {
@@ -30,7 +30,6 @@ public class LinkedListCycleII {
       h1 = h1.next;
       h2 = h2.next.next;
     }
-
     int cycleSize = 1;
     h2 = h2.next;
     while (h1 != h2) {
@@ -49,7 +48,6 @@ public class LinkedListCycleII {
         head2 = head2.next;
       }
     }
-
     return head1;
   }
 }

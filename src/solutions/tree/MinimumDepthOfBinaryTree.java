@@ -12,16 +12,20 @@ import entities.TreeNode;
  */
 public class MinimumDepthOfBinaryTree {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 2ms
-     */
-    public int minDepth(TreeNode root) {
-
-        if (root == null) return 0;
-        else if (root.left == null && root.right == null) return 1;
-        else if (root.left != null && root.right != null) return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
-        else return Math.max(minDepth(root.left), minDepth(root.right)) + 1;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 2ms
+   */
+  public int minDepth(TreeNode root) {
+    if (root == null) {
+      return 0;
+    } else if (root.left == null && root.right == null) {
+      return 1;
+    } else if (root.left != null && root.right != null) {
+      return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+    } else {
+      return Math.max(minDepth(root.left), minDepth(root.right)) + 1;
     }
+  }
 }

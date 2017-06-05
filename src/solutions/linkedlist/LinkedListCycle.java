@@ -12,28 +12,24 @@ import entities.ListNode;
  */
 public class LinkedListCycle {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     * Space Complexity: o(1)
-     */
-    public boolean hasCycle(ListNode head) {
-
-        if (head == null) {
-            return false;
-        }
-
-        ListNode node = head;
-        while (head.next != null && node.next != null && node.next.next != null) {
-            if (head.next == node.next.next) {
-                return true;
-            }
-
-            head = head.next;
-            node = node.next.next;
-        }
-
-        return false;
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   * Space Complexity: o(1)
+   */
+  public boolean hasCycle(ListNode head) {
+    if (head == null) {
+      return false;
     }
+    ListNode node = head;
+    while (head.next != null && node.next != null && node.next.next != null) {
+      if (head.next == node.next.next) {
+        return true;
+      }
+      head = head.next;
+      node = node.next.next;
+    }
+    return false;
+  }
 }

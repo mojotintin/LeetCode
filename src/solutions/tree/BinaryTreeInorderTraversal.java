@@ -15,18 +15,24 @@ import java.util.List;
  */
 public class BinaryTreeInorderTraversal {
 
-    /**
-     * Submission : 1
-     * Status : Accepted
-     * Runtime : 1ms
-     */
-    private List<Integer> traversal = new ArrayList<>();
+  /**
+   * Submission : 1
+   * Status : Accepted
+   * Runtime : 1ms
+   */
+  private List<Integer> traversal = new ArrayList<>();
 
-    public List<Integer> inorderTraversal(TreeNode root) {
-        if(root == null) return traversal;
-        if(root.left != null) inorderTraversal(root.left);
-        traversal.add(root.val);
-        if(root.right != null) inorderTraversal(root.right);
-        return traversal;
+  public List<Integer> inorderTraversal(TreeNode root) {
+    if(root == null) {
+      return traversal;
     }
+    if(root.left != null) {
+      inorderTraversal(root.left);
+    }
+    traversal.add(root.val);
+    if(root.right != null) {
+      inorderTraversal(root.right);
+    }
+    return traversal;
+  }
 }
