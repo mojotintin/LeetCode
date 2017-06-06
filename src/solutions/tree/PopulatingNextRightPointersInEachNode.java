@@ -20,7 +20,7 @@ public class PopulatingNextRightPointersInEachNode {
    * Status : Accepted
    * Runtime : 4ms
    */
-  public void connect(TreeLinkNode root) {
+  public void connect_1(TreeLinkNode root) {
     if (root == null) {
       return;
     }
@@ -47,6 +47,29 @@ public class PopulatingNextRightPointersInEachNode {
         floor.add(node.right);
       }
       list = floor;
+    }
+  }
+
+  /**
+   * Submission : 2
+   * Status : Accepted
+   * Runtime : 0ms
+   */
+  public void connect_2(TreeLinkNode root) {
+    if (root == null) {
+      return;
+    }
+    TreeLinkNode node = root;
+    while (node.left != null) {
+      TreeLinkNode start = node.left;
+      while (node.next != null) {
+        node.left.next = node.right;
+        node.right.next = node.next.left;
+        node = node.next;
+      }
+      node.left.next = node.right;
+      node.right.next = null;
+      node = start;
     }
   }
 }
