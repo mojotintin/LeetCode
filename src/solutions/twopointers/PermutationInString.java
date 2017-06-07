@@ -1,4 +1,4 @@
-package solutions.twopoints;
+package solutions.twopointers;
 
 /**
  * Created by Calabash on 2017/5/3.
