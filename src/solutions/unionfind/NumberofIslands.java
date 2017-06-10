@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Calabash on 2017/6/9.
  * Problem Number : 200
- * Problem Name : Number of Island
+ * Problem Name : Number of Islands
  * Description : https://leetcode.com/problems/number-of-islands/#/description
  * Difficulty ； Medium
  * Tags : Depth-first Search, Breadth-first Search
