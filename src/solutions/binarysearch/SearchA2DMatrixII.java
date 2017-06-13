@@ -14,8 +14,9 @@ public class SearchA2DMatrixII {
    * Submission : 1
    * Status : Accepted
    * Runtime : 16ms
+   * Time complexity : o(m * logn)
    */
-  public boolean searchMatrix(int[][] matrix, int target) {
+  public boolean searchMatrix_1(int[][] matrix, int target) {
     if (matrix.length == 0) {
       return false;
     }
@@ -45,5 +46,37 @@ public class SearchA2DMatrixII {
       }
     }
     return nums[min] == target || nums[max] == target;
+  }
+
+  /**
+   * Submission : 2
+   * Status : Accepted
+   * Runtime : 15ms
+   * Time complexity : o(m + n)
+   */
+  public boolean searchMatrix_2(int[][] matrix, int target) {
+    if (matrix == null ||matrix.length == 0 || matrix[0].length == 0) {
+      return false;
+    }
+    int height = 0;
+    int width  = matrix[0].length - 1;
+    while (height != matrix.length - 1 || width != 0) {
+      if (target == matrix[height][width]) {
+        return true;
+      }
+      if (height == matrix.length - 1) {
+        width -= 1;
+        continue;
+      } else if (width == 0) {
+        height += 1;
+        continue;
+      }
+      if (target > matrix[height][width]) {
+        height += 1;
+      } else if (target < matrix[height][width]) {
+        width -= 1;
+      }
+    }
+    return matrix[height][width] == target;
   }
 }
