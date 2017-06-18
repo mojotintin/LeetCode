@@ -45,7 +45,6 @@ public class BinaryTreePostorderTraversal {
    * Note : Stack
    */
   public List<Integer> postorderTraversal_2(TreeNode root) {
-
     List<Integer> list = new ArrayList<>();
     Stack<TreeNode> stack = new Stack<>();
     if (root == null) {

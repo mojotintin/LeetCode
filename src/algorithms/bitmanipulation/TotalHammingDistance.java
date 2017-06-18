@@ -48,25 +48,25 @@ public class TotalHammingDistance {
    * Runtime : 35ms
    */
   public int totalHammingDistance_2(int[] nums) {
-        int hamDistance = 0;
-        int countOne    = 0;
-        int countZero;
-        int max = 0;
-        for (int num : nums) {
-            if (num > max) {
-                max = num;
-            }
-        }
-        int round = (int) (Math.log(max) / Math.log(2)) + 1;
-        for (int i = 0; i < round; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                countOne += nums[j] % 2;
-                nums[j] >>= 1;
-            }
-            countZero = nums.length - countOne;
-            hamDistance += countOne * countZero;
-            countOne = 0;
-        }
-        return hamDistance;
+    int hamDistance = 0;
+    int countOne    = 0;
+    int countZero;
+    int max = 0;
+    for (int num : nums) {
+      if (num > max) {
+        max = num;
+      }
     }
+    int round = (int) (Math.log(max) / Math.log(2)) + 1;
+    for (int i = 0; i < round; i++) {
+      for (int j = 0; j < nums.length; j++) {
+        countOne += nums[j] % 2;
+        nums[j] >>= 1;
+      }
+      countZero = nums.length - countOne;
+      hamDistance += countOne * countZero;
+      countOne = 0;
+    }
+    return hamDistance;
+  }
 }

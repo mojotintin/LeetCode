@@ -21,7 +21,6 @@ public class BinaryTreeLevelOrderTraversalII {
    * Runtime : 3ms
    */
   public List<List<Integer>> levelOrderBottom(TreeNode root) {
-
     List<List<Integer>> list = new ArrayList<>();
     if (root == null) {
       return list;
