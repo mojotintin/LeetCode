@@ -18,26 +18,26 @@ public class RotateList {
    * Runtime : 16ms
    */
   public ListNode rotateRight(ListNode head, int k) {
-        if (k == 0 || head == null) {
-            return head;
-        }
-        int step = 0;
-        ListNode node2 = head;
-        while (step < k && node2 != null) {
-            node2 = node2.next;
-            step += 1;
-        }
-        if (node2 == null) {
-            return rotateRight(head, k % step);
-        }
-        ListNode node1 = head;
-        while (node2.next != null) {
-            node1 = node1.next;
-            node2 = node2.next;
-        }
-        ListNode newHead = node1.next;
-        node1.next = null;
-        node2.next = head;
-        return newHead;
+    if (k == 0 || head == null) {
+      return head;
     }
+    int step = 0;
+    ListNode node2 = head;
+    while (step < k && node2 != null) {
+      node2 = node2.next;
+      step += 1;
+    }
+    if (node2 == null) {
+      return rotateRight(head, k % step);
+    }
+    ListNode node1 = head;
+    while (node2.next != null) {
+      node1 = node1.next;
+      node2 = node2.next;
+    }
+    ListNode newHead = node1.next;
+    node1.next = null;
+    node2.next = head;
+    return newHead;
+  }
 }
