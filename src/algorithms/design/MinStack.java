@@ -1,6 +1,6 @@
 package algorithms.design;
 
-import java.util.Vector;
+import java.util.Stack;
 
 /**
  * Created by calabash on 2017/4/7.
@@ -15,32 +15,32 @@ public class MinStack {
   /**
    * Submission : 1
    * Status : Accepted
-   * Runtime : 118ms
+   * Runtime : 135ms
    */
-  private int min = Integer.MAX_VALUE;
-  private Vector<Integer> stack = null;
-
+  private Stack<Integer> min;
+  private Stack<Integer> stack;
   /** initialize your data structure here. */
   public MinStack() {
-    stack = new Vector<>();
+    min = new Stack<>();
+    stack = new Stack<>();
+    min.push(Integer.MAX_VALUE);
   }
 
   public void push(int x) {
-    stack.add(x);
+    min.push(Math.min(x, min.peek()));
+    stack.push(x);
   }
 
   public void pop() {
-    stack.remove(stack.size() - 1);
+    min.pop();
+    stack.pop();
   }
 
   public int top() {
-    return stack.get(stack.size() - 1);
+    return stack.peek();
   }
 
   public int getMin() {
-    for (Integer aStack : stack) {
-      min = Math.min(min, aStack);
-    }
-    return min;
+    return min.peek();
   }
 }
