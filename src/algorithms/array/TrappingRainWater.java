@@ -15,7 +15,7 @@ public class TrappingRainWater {
    * Status : Accepted
    * Runtime : 21ms
    */
-  public int trap(int[] height) {
+  public int trap_1(int[] height) {
     int water = 0;
     int[] waterHeight = new int[height.length];
     int curMax = 0;
@@ -41,4 +41,32 @@ public class TrappingRainWater {
     }
     return water;
   }
+
+  /**
+   * Submission ： 1
+   * Status : Accepted
+   * Runtime : 19ms
+   */
+  public int trap_2(int[] height) {
+        int water = 0;
+        int[] waterHeight = new int[height.length];
+        int curMax = 0;
+        for (int i = 0; i < height.length; i++) {
+            if (height[i] > curMax) {
+                curMax = height[i];
+            }
+            waterHeight[i] = curMax;
+        }
+        curMax = 0;
+        for (int i = height.length - 1; i >= 0; i--) {
+            if (height[i] > curMax) {
+                curMax = height[i];
+            }
+            if (curMax < waterHeight[i]) {
+                waterHeight[i] = curMax;
+            }
+            water += waterHeight[i] - height[i];
+        }
+        return water;
+    }
 }
