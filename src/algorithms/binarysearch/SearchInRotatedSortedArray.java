@@ -15,7 +15,7 @@ public class SearchInRotatedSortedArray {
    * Status : Accepted
    * Runtime : 15ms
    */
-  public int search(int[] nums, int target) {
+  public int search_1(int[] nums, int target) {
     if(nums.length == 0) {
       return -1;
     }
@@ -72,5 +72,38 @@ public class SearchInRotatedSortedArray {
     else {
       return -1;
     }
+  }
+
+  /**
+   * Submission : 1
+   * Status ； Accepted
+   * Runtime : 14ms
+   */
+  public int search_2(int[] nums, int target) {
+    int min = 0;
+    int max = nums.length - 1;
+    while (min <= max) {
+      int mid = (min + max) / 2;
+      if (nums[mid] == target) {
+        return mid;
+      } else if (nums[mid] > nums[min]) {
+        if (nums[min] == target) {
+          return min;
+        } else if (nums[min] < target && nums[mid] > target) {
+          max = mid - 1;
+        } else {
+          min = mid + 1;
+        }
+      } else {
+        if (nums[max] == target) {
+          return max;
+        } else if (nums[mid] < target && nums[max] > target) {
+          min = mid + 1;
+        } else {
+          max = mid - 1;
+        }
+      }
+    }
+    return -1;
   }
 }

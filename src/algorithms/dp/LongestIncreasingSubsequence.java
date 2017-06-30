@@ -18,20 +18,20 @@ public class LongestIncreasingSubsequence {
    * Runtime : 37ms
    */
   public int lengthOfLIS_1(int[] nums) {
-        int[] lengths = new int[nums.length];
-        Arrays.fill(lengths, 1);
-        int longest = 0;
-        int max;
-        for (int i = 0; i < nums.length; i++) {
-            max = 0;
-            for(int j = 0; j < i; j++) {
-                if (nums[j] < nums[i] && lengths[j] > max) {
-                    max = lengths[j];
-                }
-            }
-            lengths[i] = Math.max(1, max + 1);
-            longest = Math.max(longest, lengths[i]);
+    int[] lengths = new int[nums.length];
+    Arrays.fill(lengths, 1);
+    int longest = 0;
+    int max;
+    for (int i = 0; i < nums.length; i++) {
+      max = 0;
+      for(int j = 0; j < i; j++) {
+        if (nums[j] < nums[i] && lengths[j] > max) {
+          max = lengths[j];
         }
-        return longest;
+      }
+      lengths[i] = Math.max(1, max + 1);
+      longest = Math.max(longest, lengths[i]);
     }
+    return longest;
+  }
 }
