@@ -5,6 +5,7 @@ package algorithms.dp;
  * Problem Number : 152
  * Problem Name : Maximum Product Subarray
  * Difficulty : Medium
+ * Tags : Array, Dynamic Programming
  * Description : https://leetcode.com/problems/maximum-product-subarray/#/description
  * #---------------------------------------------------------------------------
  * # Find the contiguous subarray within an array (containing at least one
