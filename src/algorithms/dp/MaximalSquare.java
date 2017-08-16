@@ -1,10 +1,10 @@
 /*
  * Created by calabash on 2017/8/14.
- * Problem Number: 85.
- * Problem Name: Maximal Rectangle.
- * Difficulty: Hard.
- * Related Topics: Array, Hash Table, Stack, Dynamic Programming.
- * Source: https://leetcode.com/problems/maximal-rectangle/
+ * Problem Number: 221.
+ * Problem Name: Maximal Square.
+ * Difficulty: Medium.
+ * Related Topics: Dynamic Programming.
+ * Source: https://leetcode.com/problems/maximal-square/
  */
 
 package algorithms.dp;
@@ -14,27 +14,27 @@ import java.util.Arrays;
 /**
  * #---------------------------------------------------------------------------
  * # Given a 2D binary matrix filled with 0's and 1's, find the largest
- * # rectangle containing only 1's and return its area.
+ * # square containing only 1's and return its area.
  * #
  * # For example, given the following matrix:
  * # 1 0 1 0 0
  * # 1 0 1 1 1
  * # 1 1 1 1 1
  * # 1 0 0 1 0
- * # Return 6.
+ * # Return 4.
  * #---------------------------------------------------------------------------
  */
-public class MaximalRectangle {
+public class MaximalSquare {
 
   /**
    * Submission: 1
    * Status: Accepted
-   * Runtime: 32ms
+   * Runtime: 11ms
    */
-  public int maximalRectangle(char[][] matrix) {
-    int maxArea = 0;
+  public int maximalSquare(char[][] matrix) {
+    int maxSide = 0;
     if (matrix.length == 0 || matrix[0].length == 0) {
-      return maxArea;
+      return maxSide * maxSide;
     }
     int rowLen = matrix[0].length;
     int[] height = new int[rowLen];
@@ -51,7 +51,7 @@ public class MaximalRectangle {
           height[j] = 0;
         }
       }
-      // calculate the left '1' of current element
+      // calculate the left of current element
       int curLeft = 0;
       for (int j = 0; j < rowLen; j++) {
         if (row[j] == '1') {
@@ -61,7 +61,7 @@ public class MaximalRectangle {
           curLeft = j + 1;
         }
       }
-      // calculate the right '1' of current element
+      // calculate the right of current element
       int curRight = rowLen - 1;
       for (int j = rowLen - 1; j >= 0; j--) {
         if (row[j] == '1') {
@@ -71,11 +71,11 @@ public class MaximalRectangle {
           curRight = j - 1;
         }
       }
-      // calculate the max area of the row
+      // calculate the max side of the row
       for (int j = 0; j < rowLen; j++) {
-        maxArea = Math.max(maxArea, height[j] * (right[j] - left[j] + 1));
+        maxSide = Math.max(maxSide, Math.min(height[j], right[j] - left[j] + 1));
       }
     }
-    return maxArea;
+    return maxSide * maxSide;
   }
 }
