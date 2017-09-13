@@ -4,7 +4,7 @@
  * Problem Name: Different Ways to Add Parentheses.
  * Difficulty: Medium.
  * Related Topics: Divide and Conquer.
- * Source: Different Ways to Add Parentheses.
+ * Source: https://leetcode.com/problems/different-ways-to-add-parentheses/.
  */
 
 package algorithms.dc;
